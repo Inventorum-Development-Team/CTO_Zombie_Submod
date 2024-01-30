@@ -145,6 +145,7 @@ armors:
     spriteInv: NECROPHAGE_BLUTBAD_INVENTORY
     frontArmor: 5
     allowInv: true
+    
     sideArmor: 5
     rearArmor: 5
     underArmor: 4
@@ -414,22 +415,22 @@ extraSprites:
 ##### SPRITESHEETS #######
 #########################
   - type: NECROPHAGE_SPRITESHEET.PCK
-    width: 512
-    height: 720
+    width: 256
+    height: 400
     subX: 32
     subY: 40
     files:
       0: Resources/ZombieFaction/NECROPHAGE_SPRITESHEET.png
   - type: NECROPHAGE_VIRULENT_SPRITESHEET.PCK
-    width: 512
-    height: 720
+    width: 256
+    height: 400
     subX: 32
     subY: 40
     files:
       0: Resources/ZombieFaction/NECROPHAGE_VIRULENT_SPRITESHEET.png
   - type: NECROPHAGE_BLUTBAD_SPRITESHEET.PCK
-    width: 512
-    height: 720
+    width: 256
+    height: 400
     subX: 32
     subY: 40
     files:
