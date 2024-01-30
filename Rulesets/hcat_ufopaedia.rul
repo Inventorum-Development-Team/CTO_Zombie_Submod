@@ -1,0 +1,16 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_MEDI_KIT_UFOPEDIA: "The medi-kit combines a healing facility with stimulants. {NEWLINE}{NEWLINE}As we do not know the details of each infected specimen yet, we keep a section prepared to deal with any kind of unknown reactions to the Necrophatic virus. Once we know details about each infected by studying their autopsy, we can add a serum to the Medi-Kit to cure potential infections in combat."
+
+      STR_MEDI_KIT_ADDITIONAL: "Medi-Kit (Additional Info)"
+      STR_MEDI_KIT_ADDITIONAL_UFOPAEDIA: "In order to use the medi-kit you must face towards the soldier requiring treatment. If the Operator is stunned you must stand over the body. Click on the medi-kit icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and some health restored.{NEWLINE}{NEWLINE}STIMULANT> This will restore energy and revive unconscious (stunned) soldiers. In order to revive an unconscious Operator you must stand directly over the body.{NEWLINE}{NEWLINE}CURE> This will cure a soldier from any risk of infection. Charges will be available once further research on the infected has been completed. This includes studying their autopsy."
+
+ufopaedia:
+  - id: STR_MEDI_KIT
+    pages:
+    - title: STR_MEDI_KIT
+      text: STR_MEDI_KIT_UFOPEDIA
+    - title: STR_MEDI_KIT_ADDITIONAL
+      text: STR_MEDI_KIT_ADDITIONAL_UFOPAEDIA
+
