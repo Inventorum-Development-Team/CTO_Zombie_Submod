@@ -411,38 +411,32 @@ alienDeployments:
          lowQty: 0
          highQty: 0
          itemSets:
-           - 
-             - []
+          - []
        - alienRank: 6
          lowQty: 0
          highQty: 0
          itemSets:
-           - 
-             - []
+          - []
        - alienRank: 5
          lowQty: 3
          highQty: 7
          itemSets:
-           - 
-             - []
+          - []
        - alienRank: 4
          lowQty: 3
          highQty: 5
          itemSets:
-           - 
-             - []
+          - []
        - alienRank: 3
          lowQty: 3
          highQty: 5
          itemSets:
-           - 
-             - []
+          - []
        - alienRank: 2
          lowQty: 0
          highQty: 0
          itemSets:
-           - 
-             - []
+          - []
        - alienRank: 1
          lowQty: 1
          highQty: 1
@@ -473,38 +467,32 @@ alienDeployments:
          lowQty: 0
          highQty: 0
          itemSets:
-           - 
-             - []
+          - []
        - alienRank: 6
          lowQty: 0
          highQty: 0
          itemSets:
-           - 
-             - []
+          - []
        - alienRank: 5
          lowQty: 3
          highQty: 7
          itemSets:
-           - 
-             - []
+          - []
        - alienRank: 4
          lowQty: 3
          highQty: 5
          itemSets:
-           - 
-             - []
+          - []
        - alienRank: 3
          lowQty: 3
          highQty: 5
          itemSets:
-           - 
-             - []
+          - []
        - alienRank: 2
          lowQty: 0
          highQty: 0
          itemSets:
-           - 
-             - []
+          - []
        - alienRank: 1
          lowQty: 1
          highQty: 1
@@ -535,38 +523,32 @@ alienDeployments:
          lowQty: 0
          highQty: 0
          itemSets:
-           - 
-             - []
+          - []
        - alienRank: 6
          lowQty: 0
          highQty: 0
          itemSets:
-           - 
-             - []
+          - []
        - alienRank: 5
          lowQty: 3
          highQty: 7
          itemSets:
-           - 
-             - []
+          - []
        - alienRank: 4
          lowQty: 3
          highQty: 5
          itemSets:
-           - 
-             - []
+          - []
        - alienRank: 3
          lowQty: 3
          highQty: 5
          itemSets:
-           - 
-             - []
+          - []
        - alienRank: 2
          lowQty: 0
          highQty: 0
          itemSets:
-           - 
-             - []
+          - []
        - alienRank: 1
          lowQty: 1
          highQty: 1

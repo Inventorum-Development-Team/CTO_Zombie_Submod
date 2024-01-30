@@ -2,10 +2,10 @@ items:
 
   - type: STR_CLAW
     weight: 3
-    bigSprite: 61
-    floorSprite: 31
-    handSprite: 104
-    meleeSound: 49
+    bigSprite: {mod: xcom1, index: 61}
+    floorSprite: {mod: xcom1, index: 31}
+    handSprite: {mod: xcom1, index: 104}
+    meleeSound: {mod: xcom1, index: 49}
     clipSize: -1
     strengthApplied: true
     damageType: 7
@@ -20,12 +20,18 @@ items:
     zombieUnitByArmorMale: { STR_DEFAULT: STR_NECROPHAGE_SHAMBLER }
     zombieUnitByArmorFemale: { STR_DEFAULT: STR_NECROPHAGE_SHAMBLER }
     flatRate: true
+    tags:
+      CAN_DO_INFECTION_DAMAGE: 10
+    damageBonus:
+      strength: 0.5
+    flatRate: true
 
   - type: STR_SPIT
     weight: 3
-    bigSprite: 60
-    floorSprite: 31
-    handSprite: 104
+    bigSprite: {mod: xcom1, index: 60}
+    floorSprite: {mod: xcom1, index: 31}
+    handSprite: {mod: xcom1, index: 104}
+    meleeSound: {mod: xcom1, index: 49}
     bulletSprite: 8
     fireSound: 51
     hitSound: 19
@@ -46,3 +52,8 @@ items:
     zombieUnit: STR_NECROPHAGE_SHAMBLER
     zombieUnitByArmorMale: { STR_DEFAULT: STR_NECROPHAGE_SHAMBLER }
     zombieUnitByArmorFemale: { STR_DEFAULT: STR_NECROPHAGE_SHAMBLER }
+    flatRate: true
+    tags:
+      CAN_DO_INFECTION_DAMAGE: 10
+    damageBonus:
+      strength: 0.5

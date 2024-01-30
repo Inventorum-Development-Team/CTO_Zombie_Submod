@@ -2,8 +2,8 @@ items:
   - type: STR_NECROPHAGE_SHAMBLER_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3050
-    floorSprite: 3050
+    bigSprite: 3070
+    floorSprite: 3070
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -13,8 +13,8 @@ items:
   - type: STR_NECROPHAGE_VIRULENT_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3051
-    floorSprite: 3051
+    bigSprite: 3071
+    floorSprite: 3071
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -24,8 +24,8 @@ items:
   - type: STR_NECROPHAGE_BLUTBAD_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3052
-    floorSprite: 3052
+    bigSprite: 3072
+    floorSprite: 3072
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -35,35 +35,35 @@ items:
   - type: STR_NECROPHAGE_UNIFORM_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3050
-    floorSprite: 3050
+    bigSprite: 3075
+    floorSprite: 3075
     invWidth: 2
     invHeight: 3
     battleType: 11
     armor: 30
-    recoverCorpse: true
+    recoverCorpse: false
     recover: false
   - type: STR_NECROPHAGE_KEVLAR_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3051
-    floorSprite: 3051
+    bigSprite: 3076
+    floorSprite: 3076
     invWidth: 2
     invHeight: 3
     battleType: 11
     armor: 30
-    recoverCorpse: true
+    recoverCorpse: false
     recover: false
   - type: STR_NECROPHAGE_HEAVY_CORPSE
     name: STR_CORPSE
     weight: 50
-    bigSprite: 3052
-    floorSprite: 3052
+    bigSprite: 3077
+    floorSprite: 3077
     invWidth: 2
     invHeight: 3
     battleType: 11
     armor: 30
-    recoverCorpse: true
+    recoverCorpse: false
     recover: false
 
   - type: STR_NECROPHAGE_SHAMBLER
@@ -85,10 +85,11 @@ armors:
 ############ TERRORISTS ################
 ######################################
   - type: STR_NECROPHAGE_SHAMBLER_ARMOR
-    spriteSheet: NECROPHAGE_SHAMBLER_SPRITESHEET.PCK
+    spriteSheet: NECROPHAGE_SPRITESHEET.PCK
     corpseBattle:
       - STR_NECROPHAGE_SHAMBLER_CORPSE
     spriteInv: NECROPHAGE_SHAMBLER_INVENTORY
+    allowInv: true
     frontArmor: 5
     sideArmor: 5
     rearArmor: 5
@@ -116,6 +117,7 @@ armors:
       - STR_NECROPHAGE_VIRULENT_CORPSE
     spriteInv: NECROPHAGE_VIRULENT_INVENTORY
     frontArmor: 5
+    allowInv: true
     sideArmor: 5
     rearArmor: 5
     underArmor: 4
@@ -142,6 +144,7 @@ armors:
       - STR_NECROPHAGE_BLUTBAD_CORPSE
     spriteInv: NECROPHAGE_BLUTBAD_INVENTORY
     frontArmor: 5
+    allowInv: true
     sideArmor: 5
     rearArmor: 5
     underArmor: 4
@@ -170,6 +173,7 @@ armors:
     corpseBattle:
      - STR_NECROPHAGE_UNIFORM_CORPSE
     frontArmor: 4
+    allowInv: true
     sideArmor: 4
     rearArmor: 4
     underArmor: 4
@@ -184,7 +188,7 @@ armors:
       bravery: 10
 
   - type: STR_NECROPHAGE_KEVLAR_ARMOR
-    spriteSheet: NECROPHAGE_KEVLAR_INVENTORY.PCK
+    spriteSheet: NECROPHAGE_KEVLAR_SPRITESHEET.PCK
     spriteInv: NECROPHAGE_KEVLAR_INVENTORY
     loftempsSet: [ 3 ]
     corpseBattle:
@@ -193,6 +197,7 @@ armors:
     sideArmor: 10
     rearArmor: 30
     underArmor: 4
+    allowInv: true
     fearImmune: true
     painImmune: true
     visibilityAtDark: 18
@@ -203,7 +208,7 @@ armors:
       tu: -5
       bravery: 10
 
-  - type: STR_NECROPHAGE_HEAVY
+  - type: STR_NECROPHAGE_HEAVY_ARMOR
     spriteSheet: NECROPHAGE_HEAVY_ARMOR_SPRITESHEET.PCK
     spriteInv: NECROPHAGE_HEAVY_INVENTORY.SPK
     corpseBattle:
@@ -215,6 +220,7 @@ armors:
     underArmor: 4
     fearImmune: true
     painImmune: true
+    allowInv: true
     visibilityAtDay: 26
     visibilityAtDark: 5
     personalLight: 0
@@ -312,6 +318,92 @@ units:
       -
         - STR_CLAW
 
+  - type: STR_NECROPHAGE_UNIFORM
+    race: STR_NECROPHAGES
+    stats:
+      tu: 80
+      stamina: 100
+      health: 20
+      bravery: 200
+      reactions: 40
+      firing: 0
+      throwing: 55
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 100
+    armor: STR_NECROPHAGE_UNIFORM_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    deathSound: [ 41, 42, 43 ]
+    value: 30
+    aggression: 8
+    intelligence: 3
+    spotter: 3
+    sniper: 1
+    canSurrender: false
+    isLeeroyJenkins: true
+    builtInWeaponSets:
+      -
+        - STR_CLAW
+
+  - type: STR_NECROPHAGE_KEVLAR
+    race: STR_NECROPHAGES
+    stats:
+      tu: 40
+      stamina: 20
+      health: 40
+      bravery: 200
+      reactions: 20
+      firing: 0
+      throwing: 55
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 100
+    armor: STR_NECROPHAGE_KEVLAR_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    deathSound: [ 41, 42, 43 ]
+    value: 10
+    aggression: 8
+    intelligence: 3
+    spotter: 3
+    sniper: 1
+    canSurrender: false
+    isLeeroyJenkins: true
+    builtInWeaponSets:
+      -
+        - STR_CLAW
+
+  - type: STR_NECROPHAGE_HEAVY
+    race: STR_NECROPHAGES
+    stats:
+      tu: 40
+      stamina: 20
+      health: 40
+      bravery: 200
+      reactions: 20
+      firing: 0
+      throwing: 55
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 100
+    armor: STR_NECROPHAGE_HEAVY_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    deathSound: [ 41, 42, 43 ]
+    value: 10
+    aggression: 8
+    intelligence: 3
+    spotter: 3
+    sniper: 1
+    canSurrender: false
+    isLeeroyJenkins: true
+    builtInWeaponSets:
+      -
+        - STR_CLAW
 
 extraSprites:
 ##################################
@@ -416,30 +508,25 @@ extraSprites:
 
   - type: BIGOBS.PCK
     files:
-      3070: Resources/ZombieFaction/TERRORIST_MALE_CORPSE_BIGOB.png
-      3051: Resources/ZombieFaction/TERRORIST_FEMALE_CORPSE_BIGOB.png
-      3052: Resources/ZombieFaction/TERRORIST_GASMASK_CORPSE_BIGOB.png
-      3053: Resources/ZombieFaction/INSURGENT_COROSE_BIGOB.png
-      3054: Resources/ZombieFaction/TERRORIST_COMMANDER_CORPSE_BIGOB.png
-      3055: Resources/ZombieFaction/TERRORIST_LEADER_CORPSE_BIGOB.png
-      3056: Resources/PMCFaction/BO_CORPSE_BIGOB.png
-      3057: Resources/PMCFaction/MASKA_CORPSE_BIGOB.png
-      3058: Resources/PMCFaction/PMC_BLUE_CORPSE_BIGOB.png
-      3059: Resources/PMCFaction/PMC_GRAY_CORPSE_BIGOB.png
-      3060: Resources/ZombieFaction/TERRORIST_GUNNER_CORPSE_BIGOB.png
+      3070: Resources/ZombieFaction/NECROPHAGE_CORPSE_BIGOB.png
+      3071: Resources/ZombieFaction/NECROPHAGE_VIRULENT_CORPSE_BIGOB.png
+      3072: Resources/ZombieFaction/NECROPHAGE_BLUTBAD_CORPSE_BIGOB.png
+      #3073: Resources/ZombieFaction/NECROPHAGE_KAMIKAZE_BIGOB.png
+      #3074: Resources/ZombieFaction/NECROPHAGE_STRONK_BIGOB.png
+      3075: Resources/ZombieFaction/NECROPHAGE_CORPSE_BLACK_BIGOB.png
+      3076: Resources/ZombieFaction/NECROPHAGE_CORPSE_BLACK_BIGOB.png
+      3077: Resources/ZombieFaction/NECROPHAGE_CORPSE_HEAVY_BIGOB.png
+
   - type: FLOOROB.PCK
     files:
-      3050: Resources/ZombieFaction/TERRORIST_MALE_CORPSE_FLOOROB.png
-      3051: Resources/ZombieFaction/TERRORIST_FEMALE_CORPSE_FLOOROB.png
-      3052: Resources/ZombieFaction/TERRORIST_GASMASK_CORPSE_FLOOROB.png
-      3053: Resources/ZombieFaction/INSURGENT_CORPSE_FLOOROB.png
-      3054: Resources/PMCFaction/PMC_BLUE_CORPSE_FLOOROB.png
-      3055: Resources/PMCFaction/PMC_GRAY_CORPSE_FLOOROB.png
-      3056: Resources/PMCFaction/BO_CORPSE_FLOOROB.png
-      3057: Resources/PMCFaction/MASKA_CORPSE_FLOOROB.png
-      3058: Resources/PMCFaction/PMC_BLUE_CORPSE_FLOOROB.png
-      3059: Resources/PMCFaction/PMC_GRAY_CORPSE_FLOOROB.png
-      3060: Resources/ZombieFaction/TERRORIST_GUNNER_CORPSE_FLOOROB.png
+      3070: Resources/ZombieFaction/NECROPHAGE_CORPSE_FLOOROB.png
+      3071: Resources/ZombieFaction/NECROPHAGE_VIRULENT_CORPSE_FLOOROB.png
+      3072: Resources/ZombieFaction/NECROPHAGE_BLUTBAD_CORPSE_FLOOROB.png
+      #3073: Resources/ZombieFaction/NECROPHAGE_KAMIKAZE_FLOOROB.png
+      #3074: Resources/ZombieFaction/NECROPHAGE_STRONK_FLOOROB.png
+      3075: Resources/ZombieFaction/NECROPHAGE_CORPSE_UNIFORM_FLOOROB.png
+      3076: Resources/ZombieFaction/NECROPHAGE_CORPSE_KEVLAR_FLOOROB.png
+      3077: Resources/ZombieFaction/NECROPHAGE_CORPSE_HEAVY_FLOOROB.png
 
 
 
