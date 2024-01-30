@@ -6,23 +6,15 @@ ufoTrajectories:
 
 
 alienMissions:
-  - delete: STR_ALIEN_RESEARCH
-  - delete: STR_ALIEN_HARVEST
-  - delete: STR_ALIEN_ABDUCTION
-  - delete: STR_ALIEN_INFILTRATION
-  - delete: STR_ALIEN_BASE
-  - delete: STR_ALIEN_TERROR
-  - delete: STR_ALIEN_RETALIATION
-  - delete: STR_ALIEN_SUPPLY
 
-  - type: TERRORIST_ATTACK_EAST_EU
+  - type: MINOR_OUTBREAK_EAST_EU
     objective: 3
     despawnEvenIfTargeted: true
-    siteType: TERRORIST_ATTACK_EAST_EU
+    siteType: MINOR_OUTBREAK_EAST_EU
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORISTS: 100
+      STR_NECROPHAGE_EASY: 100
     waves:
       - ufo: dummy
         count: 1
@@ -30,14 +22,14 @@ alienMissions:
         timer: 100
         objective: true
 
-  - type: TERRORIST_ATTACK_USA
+  - type: MINOR_OUTBREAK_USA
     objective: 3
     despawnEvenIfTargeted: true
-    siteType: TERRORIST_ATTACK_USA
+    siteType: MINOR_OUTBREAK_USA
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORISTS: 100
+      STR_NECROPHAGE_EASY: 100
     waves:
       - ufo: dummy
         count: 1
@@ -45,14 +37,14 @@ alienMissions:
         timer: 100
         objective: true
 
-  - type: TERRORIST_ATTACK_WEST_EU
+  - type: MINOR_OUTBREAK_WEST_EU
     objective: 3
     despawnEvenIfTargeted: true
-    siteType: TERRORIST_ATTACK_WEST_EU
+    siteType: MINOR_OUTBREAK_WEST_EU
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORISTS: 100
+      STR_NECROPHAGE_EASY: 100
     waves:
       - ufo: dummy
         count: 1
@@ -60,98 +52,14 @@ alienMissions:
         timer: 100
         objective: true
 
-  - type: PLANE_HIJACK_EAST_EU
-    objective: 3
-    siteType: PLANE_HIJACK_EAST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: PLANE_HIJACK_USA
-    objective: 3
-    siteType: PLANE_HIJACK_USA
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: PLANE_HIJACK_WEST_EU
-    objective: 3
-    siteType: PLANE_HIJACK_WEST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: HOUSE_RAID_EAST_EU
-    objective: 3
-    siteType: HOUSE_RAID_EAST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: HOUSE_RAID_USA
-    objective: 3
-    siteType: HOUSE_RAID_USA
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: HOUSE_RAID_WEST_EU
-    objective: 3
-    siteType: HOUSE_RAID_WEST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: MAJOR_ATTACK_EAST_EU
+  - type: MAJOR_OUTBREAK_EAST_EU
     objective: 3
     despawnEvenIfTargeted: true
-    siteType: MAJOR_ATTACK_EAST_EU
+    siteType: MAJOR_OUTBREAK_EAST_EU
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORISTS: 100
+      STR_NECROPHAGE_HARD: 100
     waves:
       - ufo: dummy
         count: 1
@@ -159,14 +67,14 @@ alienMissions:
         timer: 100
         objective: true
 
-  - type: MAJOR_ATTACK_USA
+  - type: MAJOR_OUTBREAK_USA
     objective: 3
     despawnEvenIfTargeted: true
-    siteType: MAJOR_ATTACK_USA
+    siteType: MAJOR_OUTBREAK_USA
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORISTS: 100
+      STR_NECROPHAGE_HARD: 100
     waves:
       - ufo: dummy
         count: 1
@@ -174,14 +82,14 @@ alienMissions:
         timer: 100
         objective: true
 
-  - type: MAJOR_ATTACK_WEST_EU
+  - type: MAJOR_OUTBREAK_WEST_EU
     objective: 3
     despawnEvenIfTargeted: true
-    siteType: MAJOR_ATTACK_WEST_EU
+    siteType: MAJOR_OUTBREAK_WEST_EU
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORISTS: 100
+      STR_NECROPHAGE_HARD: 100
     waves:
       - ufo: dummy
         count: 1
@@ -189,14 +97,13 @@ alienMissions:
         timer: 100
         objective: true
 
-  - type: HOSTAGE_SITUATION_EAST_EU
+  - type: LAB_RAID_EAST_EU
     objective: 3
-    despawnEvenIfTargeted: true
-    siteType: HOSTAGE_SITUATION_EAST_EU
+    siteType: LAB_RAID_EAST_EU
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORISTS: 100
+      STR_PHARMACEUTICAL_NECROPHAGES: 100
     waves:
       - ufo: dummy
         count: 1
@@ -204,14 +111,13 @@ alienMissions:
         timer: 100
         objective: true
 
-  - type: HOSTAGE_SITUATION_USA
+  - type: LAB_RAID_USA
     objective: 3
-    despawnEvenIfTargeted: true
-    siteType: HOSTAGE_SITUATION_USA
+    siteType: LAB_RAID_USA
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORISTS: 100
+      STR_PHARMACEUTICAL_NECROPHAGES: 100
     waves:
       - ufo: dummy
         count: 1
@@ -219,140 +125,13 @@ alienMissions:
         timer: 100
         objective: true
 
-  - type: HOSTAGE_SITUATION_WEST_EU
+  - type: LAB_RAID_WEST_EU
     objective: 3
-    despawnEvenIfTargeted: true
-    siteType: HOSTAGE_SITUATION_WEST_EU
+    siteType: LAB_RAID_WEST_EU
     spawnZone: 0
     raceWeights:
      0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: HIDEOUT_RAID_EAST_EU
-    objective: 3
-    siteType: HIDEOUT_RAID_EAST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: HIDEOUT_RAID_USA
-    objective: 3
-    siteType: HIDEOUT_RAID_USA
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: HIDEOUT_RAID_WEST_EU
-    objective: 3
-    siteType: HIDEOUT_RAID_WEST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_TERRORISTS: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: OFFICE_RAID_EAST_EU
-    objective: 3
-    siteType: OFFICE_RAID_EAST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_PRIVATE_SECURITY: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: OFFICE_RAID_USA
-    objective: 3
-    siteType: OFFICE_RAID_USA
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_PRIVATE_SECURITY: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: OFFICE_RAID_WEST_EU
-    objective: 3
-    siteType: OFFICE_RAID_WEST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_PRIVATE_SECURITY: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: SKY_SCRAPER_EAST_EU
-    objective: 3
-    siteType: SKY_SCRAPER_EAST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_PRIVATE_SECURITY: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: SKY_SCRAPER_USA
-    objective: 3
-    siteType: SKY_SCRAPER_USA
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_PRIVATE_SECURITY: 100
-    waves:
-      - ufo: dummy
-        count: 1
-        trajectory: DIRECT
-        timer: 100
-        objective: true
-
-  - type: SKY_SCRAPER_WEST_EU
-    objective: 3
-    siteType: SKY_SCRAPER_WEST_EU
-    spawnZone: 0
-    raceWeights:
-     0:
-      STR_PRIVATE_SECURITY: 100
+      STR_PHARMACEUTICAL_NECROPHAGES: 100
     waves:
       - ufo: dummy
         count: 1

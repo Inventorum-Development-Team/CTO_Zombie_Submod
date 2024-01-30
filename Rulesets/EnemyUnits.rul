@@ -32,7 +32,39 @@ items:
     armor: 30
     recoverCorpse: true
     recover: false
-
+  - type: STR_NECROPHAGE_UNIFORM_CORPSE
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 3050
+    floorSprite: 3050
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recoverCorpse: true
+    recover: false
+  - type: STR_NECROPHAGE_KEVLAR_CORPSE
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 3051
+    floorSprite: 3051
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recoverCorpse: true
+    recover: false
+  - type: STR_NECROPHAGE_HEAVY_CORPSE
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 3052
+    floorSprite: 3052
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 30
+    recoverCorpse: true
+    recover: false
 
   - type: STR_NECROPHAGE_SHAMBLER
     liveAlien: true
@@ -61,6 +93,8 @@ armors:
     sideArmor: 5
     rearArmor: 5
     underArmor: 4
+    fearImmune: true
+    painImmune: true
     drawingRoutine: 4
     visibilityAtDark: 4
     damageModifier:
@@ -76,16 +110,18 @@ armors:
       - 1.0
     loftempsSet: [3]
     personalLight: 0
-  - type: STR_NECROPHAGE_SHAMBLER_ARMOR
-    spriteSheet: NECROPHAGE_SPRITESHEET.PCK
+  - type: STR_NECROPHAGE_VIRULENT_ARMOR
+    spriteSheet: NECROPHAGE_VIRULENT_SPRITESHEET.PCK
     corpseBattle:
-      - STR_NECROPHAGE_SHAMBLER_CORPSE
-    spriteInv: NECROPHAGE_INVENTORY
+      - STR_NECROPHAGE_VIRULENT_CORPSE
+    spriteInv: NECROPHAGE_VIRULENT_INVENTORY
     frontArmor: 5
     sideArmor: 5
     rearArmor: 5
     underArmor: 4
     drawingRoutine: 4
+    fearImmune: true
+    painImmune: true
     visibilityAtDark: 9
     damageModifier:
       - 1.0
@@ -109,6 +145,8 @@ armors:
     sideArmor: 5
     rearArmor: 5
     underArmor: 4
+    fearImmune: true
+    painImmune: true
     drawingRoutine: 4
     visibilityAtDark: 12
     damageModifier:
@@ -125,6 +163,25 @@ armors:
     loftempsSet: [3]
     personalLight: 0
 
+  - type: STR_NECROPHAGE_UNIFORM_ARMOR
+    spriteSheet: NECROPHAGE_UNIFORM_SPRITESHEET.PCK
+    spriteInv: NECROPHAGE_UNIFORM_INVENTORY
+    loftempsSet: [ 3 ]
+    corpseBattle:
+     - STR_NECROPHAGE_UNIFORM_CORPSE
+    frontArmor: 4
+    sideArmor: 4
+    rearArmor: 4
+    underArmor: 4
+    fearImmune: true
+    painImmune: true
+    visibilityAtDark: 18
+    personalLight: 0
+    stats:
+      strength: -10
+      stamina: -15
+      tu: -5
+      bravery: 10
 
   - type: STR_NECROPHAGE_KEVLAR_ARMOR
     spriteSheet: NECROPHAGE_KEVLAR_INVENTORY.PCK
@@ -136,24 +193,8 @@ armors:
     sideArmor: 10
     rearArmor: 30
     underArmor: 4
-    visibilityAtDark: 18
-    personalLight: 0
-    stats:
-      strength: -10
-      stamina: -15
-      tu: -5
-      bravery: 10
-
-  - type: STR_NECROPHAGE_UNIFORM_ARMOR
-    spriteSheet: NECROPHAGE_UNIFORM_SPRITESHEET.PCK
-    spriteInv: NECROPHAGE_UNIFORM_INVENTORY
-    loftempsSet: [ 3 ]
-    corpseBattle:
-     - STR_NECROPHAGE_UNIFORM_CORPSE
-    frontArmor: 4
-    sideArmor: 4
-    rearArmor: 4
-    underArmor: 4
+    fearImmune: true
+    painImmune: true
     visibilityAtDark: 18
     personalLight: 0
     stats:
@@ -172,6 +213,8 @@ armors:
     sideArmor: 20
     rearArmor: 40
     underArmor: 4
+    fearImmune: true
+    painImmune: true
     visibilityAtDay: 26
     visibilityAtDark: 5
     personalLight: 0

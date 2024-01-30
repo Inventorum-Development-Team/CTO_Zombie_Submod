@@ -24,3 +24,6 @@ extraStrings:
      STR_NECROPHAGE_KEVLAR_ARMOR: "Infected Operator"
      STR_NECROPHAGE_HEAVY: "Infected Operator"
      STR_NECROPHAGE_HEAVY_ARMOR: "Infected Operator"
+
+     STR_CLAW: "Infected Claw"
+     STR_SPIT: "Toxic Spit"

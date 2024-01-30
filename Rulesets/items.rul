@@ -1,0 +1,48 @@
+items:
+
+  - type: STR_CLAW
+    weight: 3
+    bigSprite: 61
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 49
+    clipSize: -1
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    zombieUnit: STR_NECROPHAGE_SHAMBLER
+    zombieUnitByArmorMale: { STR_DEFAULT: STR_NECROPHAGE_SHAMBLER }
+    zombieUnitByArmorFemale: { STR_DEFAULT: STR_NECROPHAGE_SHAMBLER }
+    flatRate: true
+
+  - type: STR_SPIT
+    weight: 3
+    bigSprite: 60
+    floorSprite: 31
+    handSprite: 104
+    bulletSprite: 8
+    fireSound: 51
+    hitSound: 19
+    hitAnimation: 46
+    power: 140
+    damageType: 8
+    accuracySnap: 75
+    accuracyAimed: 110
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+    arcingShot: true
+    zombieUnit: STR_NECROPHAGE_SHAMBLER
+    zombieUnitByArmorMale: { STR_DEFAULT: STR_NECROPHAGE_SHAMBLER }
+    zombieUnitByArmorFemale: { STR_DEFAULT: STR_NECROPHAGE_SHAMBLER }
