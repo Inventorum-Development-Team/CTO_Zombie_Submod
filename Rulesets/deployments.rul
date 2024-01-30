@@ -1,0 +1,3089 @@
+items:
+
+  - type: STR_HOUSE_EVIDENCE
+    size: 0.1
+    costSell: 30000
+  - type: STR_HIDEOUT_EVIDENCE
+    size: 0.1
+    costSell: 30000
+  - type: STR_OFFICE_EVIDENCE
+    size: 0.1
+    costSell: 30000
+
+startingConditions:
+  - type: STR_SMALL_ONLY
+    allowedCraft:
+      - STR_GMC_VAN_SMALL
+  - type: STR_NO_LARGE
+    allowedCraft:
+      - STR_GMC_VAN_SMALL
+      - STR_GMC_VAN_MEDIUM
+
+alienDeployments:
+  - delete: STR_SMALL_SCOUT
+  - delete: STR_MEDIUM_SCOUT
+  - delete: STR_LARGE_SCOUT
+  - delete: STR_HARVESTER
+  - delete: STR_ABDUCTOR
+  - delete: STR_TERROR_SHIP
+  - delete: STR_BATTLESHIP
+  - delete: STR_SUPPLY_SHIP
+  - delete: STR_TERROR_MISSION
+  - delete: STR_ALIEN_BASE_ASSAULT
+  - delete: STR_BASE_DEFENCE
+  - delete: STR_MARS_CYDONIA_LANDING
+  - delete: STR_MARS_THE_FINAL_ASSAULT
+
+  - type: TERRORIST_ATTACK_EAST_EU
+    width: 30
+    length: 30
+    height: 10
+    civilians: 3
+    terrains:
+      - EXPANDED_TERROR
+      - RURAL
+      - RAILYARD
+      - DOWNTOWN
+    despawnPenalty: 300
+    abortPenalty: 300
+    duration: [24,48]
+    startingCondition: STR_SMALL_ONLY
+    alert: STR_TERROR_ATTACK
+    keepCraftAfterFailedMission: true
+    briefing:
+     desc: STR_TERROR_ATTACK_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_SKS_SCOPED
+             - STR_SOVIET_7_62_X10
+             - STR_SOVIET_7_62_X10
+           - 
+             - STR_VSS
+             - STR_9_39_X10
+             - STR_9_39_X10
+       - alienRank: 6
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_MOLOTOV
+             - STR_GRENADE
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+             - STR_RPG_HEAT_X1
+       - alienRank: 5
+         lowQty: 3
+         highQty: 4
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+       - alienRank: 4
+         lowQty: 2
+         highQty: 4
+         itemSets:
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_SHRAPNEL_25_X3
+       - alienRank: 3
+         lowQty: 2
+         highQty: 4
+         itemSets:
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X30
+       - alienRank: 2
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X50
+       - alienRank: 1
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+       - alienRank: 0
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_SR_3
+             - STR_9_39_X20
+             - STR_9_39_X20
+  - type: TERRORIST_ATTACK_USA
+    width: 30
+    length: 30
+    height: 10
+    civilians: 3
+    terrains:
+      - EXPANDED_TERROR
+      - SLUM_SLIM
+      - INDUSTRIALSLUM
+      - ISLANDURBAN
+      - INDUSTRIAL
+    despawnPenalty: 300
+    abortPenalty: 300
+    duration: [24,48]
+    keepCraftAfterFailedMission: true
+    startingCondition: STR_SMALL_ONLY
+    alert: STR_TERROR_ATTACK
+    briefing:
+     desc: STR_TERROR_ATTACK_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_SKS_SCOPED
+             - STR_SOVIET_7_62_X10
+             - STR_SOVIET_7_62_X10
+       - alienRank: 6
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_GRENADE
+             - STR_GRENADE
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_HIGH_EXPLOSIVE
+           - 
+             - STR_MGL
+             - STR_40MM_FRAG_X6
+       - alienRank: 5
+         lowQty: 3
+         highQty: 4
+         itemSets:
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_45_ACP_X7
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+       - alienRank: 4
+         lowQty: 2
+         highQty: 4
+         itemSets:
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+       - alienRank: 3
+         lowQty: 2
+         highQty: 4
+         itemSets:
+           - 
+             - STR_AR_180
+             - STR_5_56_X30
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+       - alienRank: 2
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X50
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X100
+       - alienRank: 1
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+       - alienRank: 0
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+  - type: TERRORIST_ATTACK_WEST_EU
+    width: 30
+    length: 30
+    height: 10
+    civilians: 3
+    terrains:
+      - COMRCURBAN
+      - APARTMENT
+      - DAWNCITY_URBANA
+      - DAWNCITY_URBANB
+    despawnPenalty: 300
+    abortPenalty: 300
+    duration: [24,48]
+    keepCraftAfterFailedMission: true
+    startingCondition: STR_SMALL_ONLY
+    alert: STR_TERROR_ATTACK
+    briefing:
+     desc: STR_TERROR_ATTACK_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_FN_FAL_SCOPED
+             - STR_NATO_7_62_X20
+           - 
+             - STR_M82
+             - STR_50_BMG_X5
+       - alienRank: 6
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_MOLOTOV
+             - STR_MOLOTOV
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+             - STR_RPG_HEAT_X1
+       - alienRank: 5
+         lowQty: 3
+         highQty: 4
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X20
+             - STR_9MM_PARABELLUM_X20
+       - alienRank: 4
+         lowQty: 2
+         highQty: 4
+         itemSets:
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+       - alienRank: 3
+         lowQty: 2
+         highQty: 4
+         itemSets:
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X30
+           - 
+             - STR_AR_18
+             - STR_5_56_X30
+       - alienRank: 2
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X50
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X100
+       - alienRank: 1
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X30
+       - alienRank: 1
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+       - alienRank: 0
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_SCAR_L
+             - STR_5_56_X30
+             - STR_5_56_X30
+  - type: PLANE_HIJACK_EAST_EU
+    width: 70
+    length: 20
+    height: 10
+    civilians: 12
+    terrains:
+      - AIRPORT
+    despawnPenalty: 400
+    abortPenalty: 400
+    duration: [24,48]
+    keepCraftAfterFailedMission: true
+    startingCondition: STR_NO_LARGE
+    alert: STR_PLANE_HIJACKING
+    briefing:
+     desc: STR_PLANE_HIJACKING_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_SKS_SCOPED
+             - STR_SOVIET_7_62_X10
+             - STR_SOVIET_7_62_X10
+           - 
+             - STR_VSS
+             - STR_9_39_X10
+             - STR_9_39_X10
+       - alienRank: 6
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_MOLOTOV
+             - STR_GRENADE
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+             - STR_RPG_HEAT_X1
+       - alienRank: 5
+         lowQty: 3
+         highQty: 4
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+       - alienRank: 4
+         lowQty: 2
+         highQty: 4
+         itemSets:
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_SHRAPNEL_25_X3
+       - alienRank: 3
+         lowQty: 2
+         highQty: 4
+         itemSets:
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X30
+       - alienRank: 2
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X50
+       - alienRank: 1
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+       - alienRank: 0
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_SR_3
+             - STR_9_39_X20
+             - STR_9_39_X20
+  - type: PLANE_HIJACK_USA
+    width: 70
+    length: 20
+    height: 10
+    civilians: 12
+    terrains:
+      - AIRPORT
+    despawnPenalty: 400
+    abortPenalty: 400
+    duration: [24,48]
+    keepCraftAfterFailedMission: true
+    startingCondition: STR_NO_LARGE
+    alert: STR_PLANE_HIJACKING
+    briefing:
+     desc: STR_PLANE_HIJACKING_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_SKS_SCOPED
+             - STR_SOVIET_7_62_X10
+             - STR_SOVIET_7_62_X10
+       - alienRank: 6
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_GRENADE
+             - STR_GRENADE
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_HIGH_EXPLOSIVE
+           - 
+             - STR_MGL
+             - STR_40MM_FRAG_X6
+       - alienRank: 5
+         lowQty: 3
+         highQty: 4
+         itemSets:
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_45_ACP_X7
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+       - alienRank: 4
+         lowQty: 2
+         highQty: 4
+         itemSets:
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+       - alienRank: 3
+         lowQty: 2
+         highQty: 4
+         itemSets:
+           - 
+             - STR_AR_180
+             - STR_5_56_X30
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+       - alienRank: 2
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X50
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X100
+       - alienRank: 1
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+       - alienRank: 0
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+  - type: PLANE_HIJACK_WEST_EU
+    width: 70
+    length: 20
+    height: 10
+    civilians: 12
+    terrains:
+      - AIRPORT
+    despawnPenalty: 400
+    abortPenalty: 400
+    duration: [24,48]
+    keepCraftAfterFailedMission: true
+    startingCondition: STR_NO_LARGE
+    alert: STR_PLANE_HIJACKING
+    briefing:
+     desc: STR_PLANE_HIJACKING_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_FN_FAL_SCOPED
+             - STR_NATO_7_62_X20
+           - 
+             - STR_M82
+             - STR_50_BMG_X5
+       - alienRank: 6
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_MOLOTOV
+             - STR_MOLOTOV
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+             - STR_RPG_HEAT_X1
+       - alienRank: 5
+         lowQty: 3
+         highQty: 4
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X20
+             - STR_9MM_PARABELLUM_X20
+       - alienRank: 4
+         lowQty: 2
+         highQty: 4
+         itemSets:
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+       - alienRank: 3
+         lowQty: 2
+         highQty: 4
+         itemSets:
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X30
+           - 
+             - STR_AR_18
+             - STR_5_56_X30
+       - alienRank: 2
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X50
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X100
+       - alienRank: 1
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X30
+       - alienRank: 0
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_SCAR_L
+             - STR_5_56_X30
+             - STR_5_56_X30
+  - type: HOUSE_RAID_EAST_EU
+    width: 50
+    length: 30
+    height: 10
+    civilians: 0
+    despawnPenalty: 100
+    abortPenalty: 50
+    duration: [360,720]
+    keepCraftAfterFailedMission: true
+    missionBountyItem: STR_HOUSE_EVIDENCE
+    startingCondition: STR_NO_LARGE
+    alert: STR_HOUSE_RAID
+    terrains:
+     - SAFEHOUSE
+    briefing:
+     desc: STR_HOUSE_RAID_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_SKS_SCOPED
+             - STR_SOVIET_7_62_X10
+             - STR_SOVIET_7_62_X10
+           - 
+             - STR_VSS
+             - STR_9_39_X10
+             - STR_9_39_X10
+       - alienRank: 6
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_MOLOTOV
+             - STR_GRENADE
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+             - STR_RPG_HEAT_X1
+       - alienRank: 5
+         lowQty: 5
+         highQty: 10
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+       - alienRank: 4
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_SHRAPNEL_25_X3
+       - alienRank: 3
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X30
+       - alienRank: 2
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X50
+       - alienRank: 1
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+       - alienRank: 0
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_SR_3
+             - STR_9_39_X20
+             - STR_9_39_X20
+  - type: HOUSE_RAID_USA
+    width: 50
+    length: 30
+    height: 10
+    civilians: 0
+    despawnPenalty: 100
+    abortPenalty: 50
+    duration: [360,720]
+    keepCraftAfterFailedMission: true
+    missionBountyItem: STR_HOUSE_EVIDENCE
+    startingCondition: STR_NO_LARGE
+    alert: STR_HOUSE_RAID
+    terrains:
+     - SAFEHOUSE
+    briefing:
+     desc: STR_HOUSE_RAID_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_SKS_SCOPED
+             - STR_SOVIET_7_62_X10
+             - STR_SOVIET_7_62_X10
+       - alienRank: 6
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_GRENADE
+             - STR_GRENADE
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_HIGH_EXPLOSIVE
+           - 
+             - STR_MGL
+             - STR_40MM_FRAG_X6
+       - alienRank: 5
+         lowQty: 5
+         highQty: 10
+         itemSets:
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_45_ACP_X7
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+       - alienRank: 4
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+       - alienRank: 3
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_AR_180
+             - STR_5_56_X30
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+       - alienRank: 2
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X50
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X100
+       - alienRank: 1
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+       - alienRank: 0
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+  - type: HOUSE_RAID_WEST_EU
+    width: 50
+    length: 30
+    height: 10
+    civilians: 0
+    despawnPenalty: 100
+    abortPenalty: 50
+    duration: [360,720]
+    keepCraftAfterFailedMission: true
+    missionBountyItem: STR_HOUSE_EVIDENCE
+    startingCondition: STR_NO_LARGE
+    alert: STR_HOUSE_RAID
+    terrains:
+     - SAFEHOUSE
+    briefing:
+     desc: STR_HOUSE_RAID_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_FN_FAL_SCOPED
+             - STR_NATO_7_62_X20
+           - 
+             - STR_M82
+             - STR_50_BMG_X5
+       - alienRank: 6
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_MOLOTOV
+             - STR_MOLOTOV
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+             - STR_RPG_HEAT_X1
+       - alienRank: 5
+         lowQty: 5
+         highQty: 10
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X20
+             - STR_9MM_PARABELLUM_X20
+       - alienRank: 4
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+       - alienRank: 3
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X30
+           - 
+             - STR_AR_18
+             - STR_5_56_X30
+       - alienRank: 2
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X50
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X100
+       - alienRank: 1
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X30
+       - alienRank: 0
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_SCAR_L
+             - STR_5_56_X30
+             - STR_5_56_X30
+  - type: MAJOR_ATTACK_EAST_EU
+    width: 60
+    length: 60
+    height: 10
+    terrains:
+      - EXPANDED_TERROR
+      - RURAL
+      - RAILYARD
+      - DOWNTOWN
+    civilians: 20
+    despawnPenalty: 700
+    abortPenalty: 400
+    duration: [24,48]
+    keepCraftAfterFailedMission: true
+    alert: STR_MAJOR_ATTACK
+    briefing:
+     desc: STR_MAJOR_ATTACK_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 1
+         highQty: 3
+         itemSets:
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_SKS_SCOPED
+             - STR_SOVIET_7_62_X10
+             - STR_SOVIET_7_62_X10
+           - 
+             - STR_VSS
+             - STR_9_39_X10
+             - STR_9_39_X10
+       - alienRank: 6
+         lowQty: 1
+         highQty: 2
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_MOLOTOV
+             - STR_GRENADE
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+             - STR_RPG_HEAT_X1
+       - alienRank: 5
+         lowQty: 6
+         highQty: 12
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+       - alienRank: 4
+         lowQty: 4
+         highQty: 7
+         itemSets:
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_SHRAPNEL_25_X3
+       - alienRank: 3
+         lowQty: 4
+         highQty: 7
+         itemSets:
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X30
+       - alienRank: 2
+         lowQty: 2
+         highQty: 3
+         itemSets:
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X50
+       - alienRank: 1
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+       - alienRank: 0
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_SR_3
+             - STR_9_39_X20
+             - STR_9_39_X20
+  - type: MAJOR_ATTACK_USA
+    width: 60
+    length: 60
+    height: 10
+    terrains:
+      - EXPANDED_TERROR
+      - SLUM
+      - INDUSTRIALSLUM
+      - ISLANDURBAN
+      - INDUSTRIAL
+      - AIRFIELD1
+    civilians: 20
+    despawnPenalty: 700
+    abortPenalty: 400
+    duration: [24,48]
+    keepCraftAfterFailedMission: true
+    alert: STR_MAJOR_ATTACK
+    briefing:
+     desc: STR_MAJOR_ATTACK_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 1
+         highQty: 3
+         itemSets:
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_SKS_SCOPED
+             - STR_SOVIET_7_62_X10
+             - STR_SOVIET_7_62_X10
+       - alienRank: 6
+         lowQty: 1
+         highQty: 2
+         itemSets:
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_GRENADE
+             - STR_GRENADE
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_HIGH_EXPLOSIVE
+           - 
+             - STR_MGL
+             - STR_40MM_FRAG_X6
+       - alienRank: 5
+         lowQty: 6
+         highQty: 12
+         itemSets:
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_45_ACP_X7
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+       - alienRank: 4
+         lowQty: 4
+         highQty: 7
+         itemSets:
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+       - alienRank: 3
+         lowQty: 4
+         highQty: 7
+         itemSets:
+           - 
+             - STR_AR_180
+             - STR_5_56_X30
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+       - alienRank: 2
+         lowQty: 2
+         highQty: 3
+         itemSets:
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X50
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X100
+       - alienRank: 1
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+       - alienRank: 0
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+  - type: MAJOR_ATTACK_WEST_EU
+    width: 60
+    length: 60
+    height: 10
+    terrains:
+      - COMRCURBAN
+      - APARTMENT
+      - DAWNCITY_URBANA
+      - DAWNCITY_URBANB
+    civilians: 20
+    despawnPenalty: 700
+    abortPenalty: 400
+    duration: [24,48]
+    keepCraftAfterFailedMission: true
+    alert: STR_MAJOR_ATTACK
+    briefing:
+     desc: STR_MAJOR_ATTACK_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 1
+         highQty: 3
+         itemSets:
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_FN_FAL_SCOPED
+             - STR_NATO_7_62_X20
+           - 
+             - STR_M82
+             - STR_50_BMG_X5
+       - alienRank: 6
+         lowQty: 1
+         highQty: 2
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_MOLOTOV
+             - STR_MOLOTOV
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+             - STR_RPG_HEAT_X1
+       - alienRank: 5
+         lowQty: 6
+         highQty: 12
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X20
+             - STR_9MM_PARABELLUM_X20
+       - alienRank: 4
+         lowQty: 4
+         highQty: 7
+         itemSets:
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+       - alienRank: 3
+         lowQty: 4
+         highQty: 7
+         itemSets:
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X30
+           - 
+             - STR_AR_18
+             - STR_5_56_X30
+       - alienRank: 2
+         lowQty: 2
+         highQty: 3
+         itemSets:
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X50
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X100
+       - alienRank: 1
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X30
+       - alienRank: 0
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_SCAR_L
+             - STR_5_56_X30
+             - STR_5_56_X30
+  - type: HOSTAGE_SITUATION_EAST_EU
+    width: 50
+    length: 30
+    height: 10
+    civilians: 10
+    despawnPenalty: 500
+    abortPenalty: 500
+    duration: [24,48]
+    keepCraftAfterFailedMission: true
+    markCiviliansAsVIP: true
+    vipSurvivalPercentage: 4
+    startingCondition: STR_NO_LARGE
+    alert: STR_HOSTAGE_SITUATION
+    terrains:
+      - SAFEHOUSE
+    briefing:
+     desc: STR_HOSTAGE_SITUATION_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_SKS_SCOPED
+             - STR_SOVIET_7_62_X10
+             - STR_SOVIET_7_62_X10
+           - 
+             - STR_VSS
+             - STR_9_39_X10
+             - STR_9_39_X10
+       - alienRank: 6
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_MOLOTOV
+             - STR_GRENADE
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+             - STR_RPG_HEAT_X1
+       - alienRank: 5
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+       - alienRank: 4
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_SHRAPNEL_25_X3
+       - alienRank: 3
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X30
+       - alienRank: 2
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X50
+       - alienRank: 1
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+       - alienRank: 0
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_SR_3
+             - STR_9_39_X20
+             - STR_9_39_X20
+  - type: HOSTAGE_SITUATION_USA
+    width: 50
+    length: 30
+    height: 10
+    civilians: 10
+    despawnPenalty: 500
+    abortPenalty: 500
+    duration: [24,48]
+    keepCraftAfterFailedMission: true
+    markCiviliansAsVIP: true
+    vipSurvivalPercentage: 4
+    startingCondition: STR_NO_LARGE
+    alert: STR_HOSTAGE_SITUATION
+    terrains:
+      - SAFEHOUSE
+    briefing:
+     desc: STR_HOSTAGE_SITUATION_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_SKS_SCOPED
+             - STR_SOVIET_7_62_X10
+             - STR_SOVIET_7_62_X10
+       - alienRank: 6
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_GRENADE
+             - STR_GRENADE
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_HIGH_EXPLOSIVE
+           - 
+             - STR_MGL
+             - STR_40MM_FRAG_X6
+       - alienRank: 5
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_45_ACP_X7
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+       - alienRank: 4
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+       - alienRank: 3
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_AR_180
+             - STR_5_56_X30
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+       - alienRank: 2
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X50
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X100
+       - alienRank: 1
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+       - alienRank: 0
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+  - type: HOSTAGE_SITUATION_WEST_EU
+    width: 50
+    length: 30
+    height: 10
+    civilians: 10
+    despawnPenalty: 500
+    abortPenalty: 500
+    duration: [24,48]
+    keepCraftAfterFailedMission: true
+    markCiviliansAsVIP: true
+    vipSurvivalPercentage: 4
+    startingCondition: STR_NO_LARGE
+    alert: STR_HOSTAGE_SITUATION
+    terrains:
+      - SAFEHOUSE
+    briefing:
+     desc: STR_HOSTAGE_SITUATION_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_FN_FAL_SCOPED
+             - STR_NATO_7_62_X20
+           - 
+             - STR_M82
+             - STR_50_BMG_X5
+       - alienRank: 6
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_MOLOTOV
+             - STR_MOLOTOV
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+             - STR_RPG_HEAT_X1
+       - alienRank: 5
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X20
+             - STR_9MM_PARABELLUM_X20
+       - alienRank: 4
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+       - alienRank: 3
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X30
+           - 
+             - STR_AR_18
+             - STR_5_56_X30
+       - alienRank: 2
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X50
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X100
+       - alienRank: 1
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X30
+       - alienRank: 0
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_SCAR_L
+             - STR_5_56_X30
+             - STR_5_56_X30
+  - type: HIDEOUT_RAID_EAST_EU
+    width: 50
+    length: 50
+    height: 10
+    civilians: 0
+    despawnPenalty: 200
+    abortPenalty: 100
+    duration: [600,1200]
+    keepCraftAfterFailedMission: true
+    missionBountyItem: STR_HIDEOUT_EVIDENCE
+    alert: STR_HIDEOUT_RAID
+    terrains:
+      - EXPANDED_TERROR
+      - RURAL
+      - RAILYARD
+      - DOWNTOWN
+      - AIRFIELD1
+      - AIRFIELD2
+    briefing:
+     desc: STR_HIDEOUT_RAID_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 1
+         highQty: 4
+         itemSets:
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_SKS_SCOPED
+             - STR_SOVIET_7_62_X10
+             - STR_SOVIET_7_62_X10
+           - 
+             - STR_VSS
+             - STR_9_39_X10
+             - STR_9_39_X10
+       - alienRank: 6
+         lowQty: 1
+         highQty: 2
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_MOLOTOV
+             - STR_GRENADE
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+             - STR_RPG_HEAT_X1
+       - alienRank: 5
+         lowQty: 8
+         highQty: 14
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+       - alienRank: 4
+         lowQty: 4
+         highQty: 6
+         itemSets:
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_SHRAPNEL_25_X3
+       - alienRank: 3
+         lowQty: 4
+         highQty: 8
+         itemSets:
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X30
+       - alienRank: 2
+         lowQty: 4
+         highQty: 8
+         itemSets:
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X50
+       - alienRank: 1
+         lowQty: 2
+         highQty: 2
+         itemSets:
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+       - alienRank: 0
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_SR_3
+             - STR_9_39_X20
+             - STR_9_39_X20
+  - type: HIDEOUT_RAID_USA
+    width: 50
+    length: 50
+    height: 10
+    civilians: 0
+    despawnPenalty: 200
+    abortPenalty: 100
+    duration: [600,1200]
+    keepCraftAfterFailedMission: true
+    missionBountyItem: STR_HIDEOUT_EVIDENCE
+    alert: STR_HIDEOUT_RAID
+    terrains:
+      - AIRFIELD3
+      - AIRFIELD4
+      - PORTUFO
+      - CHEMTOWN
+      - INDUSTRIALSLUM
+      - REFINERY
+    briefing:
+     desc: STR_HIDEOUT_RAID_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 1
+         highQty: 4
+         itemSets:
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_SKS_SCOPED
+             - STR_SOVIET_7_62_X10
+             - STR_SOVIET_7_62_X10
+       - alienRank: 6
+         lowQty: 1
+         highQty: 2
+         itemSets:
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_GRENADE
+             - STR_GRENADE
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_HIGH_EXPLOSIVE
+           - 
+             - STR_MGL
+             - STR_40MM_FRAG_X6
+       - alienRank: 5
+         lowQty: 8
+         highQty: 14
+         itemSets:
+           - 
+             - STR_M1911
+             - STR_45_ACP_X7
+             - STR_45_ACP_X7
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+       - alienRank: 4
+         lowQty: 4
+         highQty: 6
+         itemSets:
+           - 
+             - STR_DOUBLE_BARREL
+             - STR_12G_BUCKSHOT_X2
+             - STR_12G_BUCKSHOT_X2
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+       - alienRank: 3
+         lowQty: 4
+         highQty: 8
+         itemSets:
+           - 
+             - STR_AR_180
+             - STR_5_56_X30
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+       - alienRank: 2
+         lowQty: 2
+         highQty: 4
+         itemSets:
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X50
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X100
+       - alienRank: 1
+         lowQty: 2
+         highQty: 2
+         itemSets:
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_M16A2
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+       - alienRank: 0
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_M4
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+  - type: HIDEOUT_RAID_WEST_EU
+    width: 50
+    length: 50
+    height: 10
+    civilians: 0
+    despawnPenalty: 200
+    abortPenalty: 100
+    duration: [600,1200]
+    keepCraftAfterFailedMission: true
+    missionBountyItem: STR_HIDEOUT_EVIDENCE
+    alert: STR_HIDEOUT_RAID
+    terrains:
+      - COMRCURBAN
+      - APARTMENT
+      - DAWNCITY_URBANA
+      - DAWNCITY_URBANB
+      - AIRFIELD5
+      - AIRFIELD6
+    briefing:
+     desc: STR_HIDEOUT_RAID_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 1
+         highQty: 4
+         itemSets:
+           - 
+             - STR_HUNTING_RIFLE
+             - STR_22_LONG_RIFLE_X6
+             - STR_22_LONG_RIFLE_X6
+           - 
+             - STR_FN_FAL_SCOPED
+             - STR_NATO_7_62_X20
+           - 
+             - STR_M82
+             - STR_50_BMG_X5
+       - alienRank: 6
+         lowQty: 1
+         highQty: 2
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_MOLOTOV
+             - STR_MOLOTOV
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+           - 
+             - STR_RPG
+             - STR_RPG_HEAT_X1
+             - STR_RPG_HEAT_X1
+       - alienRank: 5
+         lowQty: 8
+         highQty: 14
+         itemSets:
+           - 
+             - STR_MAKAROV
+             - STR_9MM_MAKAROV_X10
+             - STR_9MM_MAKAROV_X10
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X20
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X20
+             - STR_9MM_PARABELLUM_X20
+       - alienRank: 4
+         lowQty: 4
+         highQty: 6
+         itemSets:
+           - 
+             - STR_SKORPION
+             - STR_9MM_MAKAROV_X30
+             - STR_9MM_MAKAROV_X20
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+           - 
+             - STR_REMINGTON
+             - STR_12G_BUCKSHOT_X8
+             - STR_12G_BUCKSHOT_X8
+       - alienRank: 3
+         lowQty: 2
+         highQty: 8
+         itemSets:
+           - 
+             - STR_AKM
+             - STR_SOVIET_7_62_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X30
+           - 
+             - STR_AR_18
+             - STR_5_56_X30
+       - alienRank: 2
+         lowQty: 2
+         highQty: 4
+         itemSets:
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X60
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X50
+           - 
+             - STR_M60
+             - STR_NATO_7_62_X100
+       - alienRank: 1
+         lowQty: 2
+         highQty: 2
+         itemSets:
+           - 
+             - STR_TEC_9
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X45
+             - STR_5_45_X30
+           - 
+             - STR_AK_74
+             - STR_5_45_X60
+             - STR_5_45_X30
+       - alienRank: 0
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+           - 
+             - STR_SCAR_L
+             - STR_5_56_X30
+             - STR_5_56_X30
+  - type: OFFICE_RAID_EAST_EU
+    width: 30
+    length: 30
+    height: 10
+    civilians: 4
+    despawnPenalty: 200
+    abortPenalty: 100
+    duration: [600,1200]
+    keepCraftAfterFailedMission: true
+    missionBountyItem: STR_OFFICE_EVIDENCE
+    startingCondition: STR_NO_LARGE
+    alert: STR_OFFICE_RAID
+    terrains:
+     - OFFICE
+     - CTO_OFFICE_WEST_EUROPE
+    briefing:
+     desc: STR_OFFICE_RAID_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_VSS
+             - STR_9_39_X20
+             - STR_9_39_X20
+       - alienRank: 6
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X100
+       - alienRank: 5
+         lowQty: 3
+         highQty: 7
+         itemSets:
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+       - alienRank: 4
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_BARRICADE_X3
+             - STR_SHRAPNEL_25_X3
+       - alienRank: 3
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_AK15
+             - STR_SOVIET_7_62_X40
+             - STR_SOVIET_7_62_X30
+       - alienRank: 2
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_SR_3_ONE_HANDED
+             - STR_RIOT_SHIELD
+             - STR_9_39_X10
+             - STR_9_39_X10
+       - alienRank: 1
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - 
+             - STR_AK15
+             - STR_SOVIET_7_62_X40
+             - STR_SOVIET_7_62_X30
+  - type: OFFICE_RAID_USA
+    width: 30
+    length: 30
+    height: 10
+    civilians: 4
+    despawnPenalty: 200
+    abortPenalty: 100
+    duration: [600,1200]
+    keepCraftAfterFailedMission: true
+    missionBountyItem: STR_OFFICE_EVIDENCE
+    startingCondition: STR_NO_LARGE
+    alert: STR_OFFICE_RAID
+    terrains:
+     - OFFICE
+     - CTO_OFFICE_WEST_EUROPE
+    briefing:
+     desc: STR_OFFICE_RAID_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_M82
+             - STR_50_BMG_X10
+       - alienRank: 6
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_MK_48
+             - STR_NATO_7_62_X100
+       - alienRank: 5
+         lowQty: 3
+         highQty: 7
+         itemSets:
+           - 
+             - STR_MPX
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+       - alienRank: 4
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+       - alienRank: 3
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_M4A1
+             - STR_5_56_X30
+             - STR_5_56_X30
+       - alienRank: 2
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_MK_23
+             - STR_RIOT_SHIELD
+             - STR_45_ACP_X12
+             - STR_45_ACP_X12
+       - alienRank: 1
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - 
+             - STR_M4A1
+             - STR_5_56_X30
+             - STR_5_56_X30
+  - type: OFFICE_RAID_WEST_EU
+    width: 30
+    length: 30
+    height: 10
+    civilians: 4
+    despawnPenalty: 200
+    abortPenalty: 100
+    duration: [600,1200]
+    keepCraftAfterFailedMission: true
+    missionBountyItem: STR_OFFICE_EVIDENCE
+    startingCondition: STR_NO_LARGE
+    alert: STR_OFFICE_RAID
+    terrains:
+     - OFFICE
+     - CTO_OFFICE_WEST_EUROPE
+    briefing:
+     desc: STR_OFFICE_RAID_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_AW
+             - STR_338_LAPUA_X5
+             - STR_338_LAPUA_X5
+       - alienRank: 6
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_MK_48
+             - STR_NATO_7_62_X100
+       - alienRank: 5
+         lowQty: 3
+         highQty: 7
+         itemSets:
+           - 
+             - STR_P90
+             - STR_FN_57_X50
+             - STR_FN_57_X50
+       - alienRank: 4
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+       - alienRank: 3
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+       - alienRank: 2
+         lowQty: 0
+         highQty: 0
+         itemSets:
+           - 
+             - STR_FIVE_SEVEN
+             - STR_RIOT_SHIELD
+             - STR_FN_57_X20
+             - STR_FN_57_X20
+       - alienRank: 1
+         lowQty: 1
+         highQty: 1
+         itemSets:
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+  - type: SKY_SCRAPER_EAST_EU
+    width: 30
+    length: 30
+    height: 15
+    civilians: 12
+    despawnPenalty: 0
+    terrains:
+     - SKYSCRAPER
+    abortPenalty: 500
+    duration: [99999,99999]
+    keepCraftAfterFailedMission: true
+    alert: STR_SKYSCRAPER_RAID
+    briefing:
+     desc: STR_SKYSCRAPER_RAID_BRIEFING
+    winCutscene: winGame
+    loseCutscene: loseGame
+    abortCutscene: loseGame
+    data:
+       - alienRank: 7
+         lowQty: 1
+         highQty: 3
+         itemSets:
+           - 
+             - STR_VSS
+             - STR_9_39_X20
+             - STR_9_39_X20
+       - alienRank: 6
+         lowQty: 2
+         highQty: 3
+         itemSets:
+           - 
+             - STR_PECHENEG
+             - STR_SOVIET_7_62_MMR_X100
+       - alienRank: 5
+         lowQty: 6
+         highQty: 12
+         itemSets:
+           - 
+             - STR_AK12
+             - STR_5_45_X45
+             - STR_5_45_X30
+       - alienRank: 4
+         lowQty: 5
+         highQty: 10
+         itemSets:
+           - 
+             - STR_KS_23
+             - STR_SHRAPNEL_25_X3
+             - STR_BARRICADE_X3
+             - STR_SHRAPNEL_25_X3
+       - alienRank: 3
+         lowQty: 5
+         highQty: 10
+         itemSets:
+           - 
+             - STR_AK15
+             - STR_SOVIET_7_62_X40
+             - STR_SOVIET_7_62_X30
+       - alienRank: 2
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_SR_3_ONE_HANDED
+             - STR_RIOT_SHIELD
+             - STR_9_39_X10
+             - STR_9_39_X10
+       - alienRank: 1
+         lowQty: 2
+         highQty: 4
+         itemSets:
+           - 
+             - STR_AK15
+             - STR_SOVIET_7_62_X40
+             - STR_SOVIET_7_62_X30
+  - type: SKY_SCRAPER_USA
+    width: 30
+    length: 30
+    height: 15
+    civilians: 12
+    despawnPenalty: 0
+    terrains:
+     - SKYSCRAPER
+    abortPenalty: 500
+    duration: [99999,99999]
+    keepCraftAfterFailedMission: true
+    alert: STR_SKYSCRAPER_RAID
+    briefing:
+     desc: STR_SKYSCRAPER_RAID_BRIEFING
+    winCutscene: winGame
+    loseCutscene: loseGame
+    abortCutscene: loseGame
+    data:
+       - alienRank: 7
+         lowQty: 1
+         highQty: 3
+         itemSets:
+           - 
+             - STR_M82
+             - STR_50_BMG_X10
+       - alienRank: 6
+         lowQty: 2
+         highQty: 3
+         itemSets:
+           - 
+             - STR_MK_48
+             - STR_NATO_7_62_X100
+       - alienRank: 5
+         lowQty: 6
+         highQty: 12
+         itemSets:
+           - 
+             - STR_MPX
+             - STR_9MM_PARABELLUM_X30
+             - STR_9MM_PARABELLUM_X20
+       - alienRank: 4
+         lowQty: 5
+         highQty: 10
+         itemSets:
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+       - alienRank: 3
+         lowQty: 5
+         highQty: 10
+         itemSets:
+           - 
+             - STR_M4A1
+             - STR_5_56_X30
+             - STR_5_56_X30
+       - alienRank: 2
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_MK_23
+             - STR_RIOT_SHIELD
+             - STR_45_ACP_X12
+             - STR_45_ACP_X12
+       - alienRank: 1
+         lowQty: 4
+         highQty: 2
+         itemSets:
+           - 
+             - STR_M4A1
+             - STR_5_56_X30
+             - STR_5_56_X30
+  - type: SKY_SCRAPER_WEST_EU
+    width: 30
+    length: 30
+    height: 15
+    civilians: 12
+    despawnPenalty: 0
+    terrains:
+     - SKYSCRAPER
+    abortPenalty: 500
+    duration: [99999,99999]
+    keepCraftAfterFailedMission: true
+    alert: STR_SKYSCRAPER_RAID
+    briefing:
+     desc: STR_SKYSCRAPER_RAID_BRIEFING
+    winCutscene: winGame
+    loseCutscene: loseGame
+    abortCutscene: loseGame
+    data:
+       - alienRank: 7
+         lowQty: 1
+         highQty: 3
+         itemSets:
+           - 
+             - STR_AW
+             - STR_338_LAPUA_X5
+             - STR_338_LAPUA_X5
+       - alienRank: 6
+         lowQty: 2
+         highQty: 3
+         itemSets:
+           - 
+             - STR_MK_48
+             - STR_NATO_7_62_X100
+       - alienRank: 5
+         lowQty: 6
+         highQty: 12
+         itemSets:
+           - 
+             - STR_P90
+             - STR_FN_57_X50
+             - STR_FN_57_X50
+       - alienRank: 4
+         lowQty: 5
+         highQty: 10
+         itemSets:
+           - 
+             - STR_ORIGIN_12
+             - STR_12G_BUCKSHOT_X20
+             - STR_12G_BUCKSHOT_X8
+       - alienRank: 3
+         lowQty: 5
+         highQty: 10
+         itemSets:
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+       - alienRank: 2
+         lowQty: 3
+         highQty: 5
+         itemSets:
+           - 
+             - STR_FIVE_SEVEN
+             - STR_RIOT_SHIELD
+             - STR_FN_57_X20
+             - STR_FN_57_X20
+       - alienRank: 1
+         lowQty: 2
+         highQty: 4
+         itemSets:
+           - 
+             - STR_HK416
+             - STR_5_56_X30
+             - STR_5_56_X30
+extraStrings:
+  - type: en-US
+    strings:
+      TERRORIST_ATTACK_EAST_EU: "Terrorist Attack, Eastern Europe"
+      TERRORIST_ATTACK_USA: "Terrorist Attack, USA"
+      TERRORIST_ATTACK_WEST_EU: "Terrorist Attack, Western Europe"
+      PLANE_HIJACK_EAST_EU: "Plane Hijacking, Eastern Europe"
+      PLANE_HIJACK_USA: "Plane Hijacking, USA"
+      PLANE_HIJACK_WEST_EU: "Plane Hijacking, Western Europe"
+      HOUSE_RAID_EAST_EU: "Safehouse Raid, Eastern Europe"
+      HOUSE_RAID_USA: "Safehouse Raid, USA"
+      HOUSE_RAID_WEST_EU: "Safehouse Raid, Western Europe"
+      MAJOR_ATTACK_EAST_EU: "Major Attack, Eastern Europe"
+      MAJOR_ATTACK_USA: "Major Attack, USA"
+      MAJOR_ATTACK_WEST_EU: "Major Attack, Western Europe"
+      HOSTAGE_SITUATION_EAST_EU: "Hostage Situation, Eastern Europe"
+      HOSTAGE_SITUATION_USA: "Hostage Situation, USA"
+      HOSTAGE_SITUATION_WEST_EU: "Hostage Situation, Western Europe"
+      HIDEOUT_RAID_EAST_EU: "Hideout Raid, Eastern Europe"
+      HIDEOUT_RAID_USA: "Hideout Raid, USA"
+      HIDEOUT_RAID_WEST_EU: "Hideout Raid, Western Europe"
+      OFFICE_RAID_EAST_EU: "Office Raid, Eastern Europe"
+      OFFICE_RAID_USA: "Office Raid, USA"
+      OFFICE_RAID_WEST_EU: "Office Raid, Western Europe"
+      SKY_SCRAPER_EAST_EU: "Skyscraper Raid, Eastern Europe"
+      SKY_SCRAPER_USA: "Skyscraper Raid, USA"
+      SKY_SCRAPER_WEST_EU: "Skyscraper Raid, Western Europe"
+
+      STR_TERROR_ATTACK: "Terror Attack"
+      STR_PLANE_HIJACKING: "Plane Hijacking"
+      STR_HOUSE_RAID: "Safe-House Raid"
+      STR_MAJOR_ATTACK: "Major Attack"
+      STR_HOSTAGE_SITUATION: "Hostage Situation"
+      STR_HIDEOUT_RAID: "Hideout Raid"
+      STR_OFFICE_RAID: "Office Raid"
+      STR_SKYSCRAPER_RAID: "Skyscraper Raid"
+
+      MAP_OFFICE: "Office"
+      CTO_OFFICE: "Corporate Office"
+      MAP_CTO_OFFICE_WEST_EUROPE: "Corporate Office" #THE ONLY ONE THAT WORKS
+
+      STR_HOUSE_EVIDENCE: "Safehouse Evidence"
+      STR_HIDEOUT_EVIDENCE: "Hideout Evidence"
+      STR_OFFICE_EVIDENCE: "Office Evidence"
+
+      STR_TERROR_ATTACK_BRIEFING: "Local police have alerted us to an ongoing terror attack. The Area has been cordoned off and while local police has skirmished against the perpetrators, multiple hostiles still remain. Civilian evacuation efforts are ongoing, but some civilians might still remain in the area of operations."
+      STR_PLANE_HIJACKING_BRIEFING: "Government entities have called us to deal with a plane hijacking. While negotiations with the perpetrators are ongoing, a peaceful resolution has been judged unlikely to happen and an assault has been ordered. Our Assault team will be approaching along the runway, trying to utilize the planes blind spots to get as close as possible while undetected. There are civilians inside the plane, so extreme care must be taken to avoid them getting hit in the crossfire."
+      STR_HOUSE_RAID_BRIEFING: "Our Intelligence division has located a locale suspected to be used as a safehouse for a local terrorist cell and confirmed the presence of known suspects and their accomplishes. A raid of the building has been authorized. Weapons have been confirmed to be on the property so resistance is expected. The nearby area has been covertly cordoned of so no civilians will be in the area of operations."
+      STR_MAJOR_ATTACK_BRIEFING: "A major terrorist attack is ongoing and we've been called in to assist. Local police has been overwhelmed and efforts to contain the attack have mostly been unsuccessful. Multiple civilians are still in the area. It is integral that we stop the attack as failure would have disastrous consequences."
+      STR_HOSTAGE_SITUATION_BRIEFING: "We've been called to assist in a hostage situation. Multiple perpetrators have barricaded themselves into a building along with multiple hostages. After unsuccessful negotiations gunfire has been heard from inside the building and an assault has been ordered. Speed is of the essence as the lives of the hostages are in danger, rescue them or the operation will be considered a failure."
+      STR_HIDEOUT_RAID_BRIEFING: "Intelligence has discovered the main hideout of a terrorist cell. After careful preparation an assault has been authorized. The amount of suspects in the area is uncertain, but suspected to be large. The presence of heavy weaponry such as rocket launchers and machine guns has also been confirmed. The assault on the building will likely be perilous so precaution is advised."
+      STR_OFFICE_RAID_BRIEFING: "After Local police were fired upon by private security when they were trying to seize documents for evidence we've been called in to raid the premises. Be warned, the private security forces are well equipped and trained, they should not be underestimated. Excessive firepower should be avoided as there is both civilians still located in the offices and vital evidence that must not be destroyed."
+      STR_SKYSCRAPER_RAID_BRIEFING: "This is it, the headquarters of the shell company behind the funding of the terrorist cells. The skyscraper is filled to the brim with security forces and taking it will be a significant effort. Failure is not an option, the evidence required to find and convict those behind the attacks is in the building and we cannot afford to let it be destroyed."
+
+
+    

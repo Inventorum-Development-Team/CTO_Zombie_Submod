@@ -1,0 +1,8 @@
+name: "CTO - Zombie Mod"
+version: "1.0"
+author: "efrenespartano"
+description: "Submod for CTO, adds a zombie enemy and missions"
+id: cto_zombie_submod
+master: CTO
+reservedSpace: 5
+requiredExtendedVersion: "7.11"
