@@ -24,7 +24,6 @@ items:
       CAN_DO_INFECTION_DAMAGE: 10
     damageBonus:
       strength: 0.5
-    flatRate: true
 
   - type: STR_SPIT
     weight: 3
