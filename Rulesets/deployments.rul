@@ -41,6 +41,64 @@ alienDeployments:
     despawnPenalty: 300
     abortPenalty: 300
     duration: [24,48]
+    keepCraftAfterFailedMission: true
+    startingCondition: STR_SMALL_ONLY
+    alert: STR_MINOR_OUTBREAK
+    briefing:
+     desc: STR_MINOR_OUTBREAK_BRIEFING
+    data:
+       - alienRank: 7
+         lowQty: 0
+         highQty: 0
+         itemSets:
+          - []
+       - alienRank: 6
+         lowQty: 0
+         highQty: 0
+         itemSets:
+          - []
+       - alienRank: 5
+         lowQty: 3
+         highQty: 4
+         itemSets:
+          - []
+       - alienRank: 4
+         lowQty: 2
+         highQty: 4
+         itemSets:
+          - []
+       - alienRank: 3
+         lowQty: 2
+         highQty: 4
+         itemSets:
+          - []
+       - alienRank: 2
+         lowQty: 0
+         highQty: 0
+         itemSets:
+          - []
+       - alienRank: 1
+         lowQty: 0
+         highQty: 0
+         itemSets:
+          - []
+       - alienRank: 0
+         lowQty: 0
+         highQty: 0
+         itemSets:
+          - []
+    width: 30
+    length: 30
+    height: 10
+    civilians: 3
+    terrains:
+      - EXPANDED_TERROR
+      - RURAL
+      - RAILYARD
+      - DOWNTOWN
+    despawnPenalty: 300
+    abortPenalty: 300
+    duration: [24,48]
     startingCondition: STR_SMALL_ONLY
     alert: STR_MINOR_OUTBREAK
     keepCraftAfterFailedMission: true
@@ -87,65 +145,6 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
-    reinforcements:
-      - type: zombie_horde
-        turns: [2, 4, 6]
-        maxRuns: 3
-        mapBlockFilterType: 2
-        spawnBlocks: [EDGES]
-        useSpawnNodes: false
-        spawnZLevels: [0]
-        minDistanceFromXcomUnits: 10
-        maxDistanceFromBorders: 1
-        data:
-          - alienRank: 5
-            lowQty: 2
-            highQty: 4
-            dQty: 0
-            extraQty: 0
-            percentageOutsideUfo: 0
-            itemSets:
-             - []
-          - alienRank: 4
-            lowQty: 1
-            highQty: 3
-            dQty: 0
-            extraQty: 0
-            percentageOutsideUfo: 0
-            itemSets:
-             - []
-          - alienRank: 3
-            lowQty: 1
-            highQty: 3
-            dQty: 0
-            extraQty: 0
-            percentageOutsideUfo: 0
-            itemSets:
-             - []
-          - alienRank: 2
-            lowQty: 1
-            highQty: 3
-            dQty: 0
-            extraQty: 0
-            percentageOutsideUfo: 0
-            itemSets:
-             - []
-          - alienRank: 1
-            lowQty: 1
-            highQty: 2
-            dQty: 0
-            extraQty: 0
-            percentageOutsideUfo: 0
-            itemSets:
-             - []
-          - alienRank: 0
-            lowQty: 1
-            highQty: 2
-            dQty: 0
-            extraQty: 0
-            percentageOutsideUfo: 0
-            itemSets:
-             - []
   - type: MINOR_OUTBREAK_U
     width: 30
     length: 30
@@ -206,6 +205,41 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
+    reinforcements:
+      - type: zombie_horde
+        turns: [1, 2, 3]
+        maxRuns: 3
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 5
+            lowQty: 2
+            highQty: 4
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 4
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 3
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 2
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            itemSets:
+             - []
   - type: MINOR_OUTBREAK_WEST_EU
     width: 30
     length: 30
