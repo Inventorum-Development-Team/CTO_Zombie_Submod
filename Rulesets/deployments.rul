@@ -87,7 +87,66 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
-  - type: MINOR_OUTBREAK_USA
+    reinforcements:
+      - type: zombie_horde
+        turns: [2, 4, 6]
+        maxRuns: 3
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 5
+            lowQty: 2
+            highQty: 4
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 4
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 3
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 2
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 1
+            lowQty: 1
+            highQty: 2
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 0
+            lowQty: 1
+            highQty: 2
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+  - type: MINOR_OUTBREAK_U
     width: 30
     length: 30
     height: 10
