@@ -1,0 +1,64 @@
+en-US:
+  #ufopaedia.rul
+  STR_REPORTS: "Reports"
+  STR_NECROPHAGES: "Necrophages"
+  STR_NECROPHAGE_SHAMBLER: "Necrophage Shambler"
+  STR_NECROPHAGE_SHAMBLER_ARMOR: "Necrotic Skin"
+  STR_NECROPHAGE_SHAMBLER_UFOPEDIA: "Newly infected person with the RZX plage. The reflexes and mobility are severely affected due the extense destruction of the central nervious system. The self-preservation instincts are replaced with a perpetual hunger... specially for meat."
+  STR_NECROPHAGE_VIRULENT: "Necrophage Virulent"
+  STR_NECROPHAGE_VIRULENT_ARMOR: "Necrotic Skin"
+  STR_NECROPHAGE_VIRULENT_UFOPEDIA: "The second phase of the RZX sickness increases the amount of bile production in the affected host internal organs; combined with a continued need of spitting and puking allows to contaminate healthy people at a moderate range."
+  STR_NECROPHAGE_BLUTBAD: "Necrophage Blutbad"
+  STR_NECROPHAGE_BLUTBAD_ARMOR: "Severely Necrotic Skin"
+  STR_NECROPHAGE_BLUTBAD_UFOPEDIA: "The final phase of the RZX viral infection turns the host into a blood-thirsty subject with heightened aggression but a severely weakened body structure. Their most recognizable feature is the large amount of open wounds over the body, spreading the virus. The name is a portmanteau of the German words 'Blut' and 'bat', meaning 'Bloodbath'."
+  
+  STR_NECROPHAGE_SHAMBLER_CORPSE: "Necrophage Shambler Corpse"
+  STR_NECROPHAGE_VIRULENT_CORPSE: "Necrophage Virulent Corpse"
+  STR_NECROPHAGE_BLUTBAD_CORPSE: "Necrophage Blutbad Corpse"
+
+  STR_NECROPHAGE_RESEARCH: "Necrophage Virus Research"
+  STR_NECROPHAGE_RESEARCH_UFOPEDIA: "This previously-unknown viral sickness seems to affect only healthy individuals and is transmitted by direct contact with skin and fluids. The virus doesn't seem to last long suspended in air, so the posibility of airborne infection is completely left aside. By acquiring the samples from a 'Virulent' corpse, we could trace its origin."
+  STR_NECROPHAGE_RESEARCH_PROGRESS: "Necrophage Virus Progress"
+  STR_NECROPHAGE_RESEARCH_PROGRESS_UFOPEDIA: "Our Task Force isn't prepared for conducting scientific research, so all our data is collected and sent to specialized laboratories working on combating the infection. So far, the results point to a completely artificial origin, most likely an act of bio-terrorism. A sample of a 'Blutbad' infected is required."
+  STR_NECROPHAGE_RESEARCH_FINAL: "Necrophage Virus Final"
+  STR_NECROPHAGE_RESEARCH_FINAL_UFOPEDIA: "Health authorities have managed to track down the source of the infection: a transnational pharmaceutical consortium, who released the plage into 'wealthy' nations with the goal of undermine rival corporations. They seem to be connected with the shadowy entity behind other acts of terrorism. The 'undead' threat would most likely stop once the main partner is defeated."
+  STR_NECROPHAGE_UNIFORM: "Infected Operator"
+  STR_NECROPHAGE_UNIFORM_ARMOR: "Infected Operator"
+  STR_NECROPHAGE_KEVLAR: "Infected Operator"
+  STR_NECROPHAGE_KEVLAR_ARMOR: "Infected Operator"
+  STR_NECROPHAGE_HEAVY: "Infected Operator"
+  STR_NECROPHAGE_HEAVY_ARMOR: "Infected Operator"
+
+  STR_CLAW: "Infected Claw"
+  STR_SPIT: "Toxic Spit"
+
+  STR_PHARMACEUTICAL_NECROPHAGES: "Controlled Horde"
+  STR_NECROPHAGE_HARD: "Large Necrophage Horde"
+  STR_NECROPHAGE_EASY: "Small Necrophage Horde"
+
+  MINOR_OUTBREAK_EAST_EU: "Minor Outbreak, Eastern Europe"
+  MINOR_OUTBREAK_USA: "Minor Outbreak, USA"
+  MINOR_OUTBREAK_WEST_EU: "Minor Outbreak, Western Europe"
+  MAJOR_OUTBREAK_EAST_EU: "Major Outbreak, Eastern Europe"
+  MAJOR_OUTBREAK_USA: "Major Outbreak, USA"
+  MAJOR_OUTBREAK_WEST_EU: "Major Outbreak, Western Europe"
+  LAB_RAID_EAST_EU: "Lab Raid, Eastern Europe"
+  LAB_RAID_USA: "Lab Raid, USA"
+  LAB_RAID_WEST_EU: "Lab Raid, Western Europe"
+
+  STR_MINOR_OUTBREAK: "Minor Outbreak"
+  STR_MAJOR_OUTBREAK: "Major Outbreak"
+  STR_LAB_RAID: "Lab Raid"
+
+  MAP_OFFICE: "Office"
+  CTO_OFFICE: "Corporate Office"
+  MAP_CTO_OFFICE_WEST_EUROPE: "Corporate Office" #THE ONLY ONE THAT WORKS
+
+  STR_LAB_EVIDENCE: "Lab Evidence"
+
+  STR_MINOR_OUTBREAK_BRIEFING: "Local police have alerted us to an ongoing viral outbreak. The Area has been cordoned off and while local police has skirmished against the infected, multiple hostiles still remain. Civilian evacuation efforts are ongoing, but some civilians might still remain in the area of operations."
+  STR_MAJOR_OUTBREAK_BRIEFING: "A major outbreak attack is ongoing and we've been called in to assist. Local police has been overwhelmed and efforts to contain the attack have mostly been unsuccessful. Multiple civilians are still in the area. It is integral that we stop the attack as failure would have disastrous consequences."
+  STR_LAB_RAID_BRIEFING: "Intel has pointed out to this pharmaceutical office complex as the source of the RZX infection. Be warned, there are reports of private security forces are well equipped and trained, they should not be underestimated. Excessive firepower should be avoided as there is both civilians still located in the offices and vital evidence that must not be destroyed."
+
+  STR_PAIN_KILLER: "CURE"
+  STR_MEDI_KIT_QUANTITIES_LEFT: "Cure>{ALT}{0}{ALT}{NEWLINE}Stim>{ALT}{1}{ALT}{NEWLINE}Heal>{ALT}{2}"

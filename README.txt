@@ -1,20 +1,23 @@
-Counter-Terrorist Operations - John Wick Mod(e) submod
+Counter-Terrorist Operations - Día de los Muertos submod
 
-This small submod for CTO adds Keanu Reeves' character from the popular franchise John Wick as a playable unit, with two custom weapons.
+This small submod for CTO adds a small zombie storyline with 6 custom infected units and three missions.
 
 Credits: 
-* Hans Woofington: Bulletproof Suit (modified)
+* Hans Woofington: CTO Armors (modified)
 * efrenespartano: sprites and code 
-* Solarius Scorch: suit spritesheet (modified)
+* Buscher: scripts
+* Wolfstarr: adapted Necrophage spritesheet
+* UFO2000 Staff: original Necrophage sprites
 
 ##################################
 
 CHANGELOG:
 
-19-Jan-2024 v1.0
-
-> Added John Wick unit
-> Added Bulletproof Suit (usable only by Wick)
-> Added weapons:
->> Crotalus Pistol
->> Pencil
+01-Nov-2024
+* Added Necrophage units 
+    - Necrophage Shambler
+    - Necrophage Virulent
+    - Necrophage Blutbad
+    - Infected Operator(s)
+* Added Necrophage storyline
+* Buscher's Medi-Kit special item

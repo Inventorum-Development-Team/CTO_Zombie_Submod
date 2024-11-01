@@ -1,0 +1,64 @@
+es-419:
+  #ufopaedia.rul
+  STR_NECROPHAGES: "Necrófagos"
+  STR_NECROPHAGE_SHAMBLER: "Necrófago deambulador"
+  STR_NECROPHAGE_SHAMBLER_ARMOR: "Piel necrótica"
+  STR_NECROPHAGE_SHAMBLER_UFOPEDIA: "Persona recientemente infectada con la plaga RZX. Los reflejos y la movilidad se ven gravemente afectados debido a la extensa destrucción del sistema nervioso central. Los instintos de autoconservación son reemplazados por un hambre perpetua... especialmente de carne."
+  STR_NECROPHAGE_VIRULENT: "Necrófago virulento"
+  STR_NECROPHAGE_VIRULENT_ARMOR: "Piel necrótica"
+  STR_NECROPHAGE_VIRULENT_UFOPEDIA: "La segunda fase de la enfermedad por el patógeno RZX aumenta la cantidad de producción de bilis en los órganos internos del huésped afectado; combinada con una necesidad continua de escupir y vomitar, permite contaminar a personas sanas en un rango moderado."
+  STR_NECROPHAGE_BLUTBAD: "Necrófago Blutbad"
+  STR_NECROPHAGE_BLUTBAD_ARMOR: "Piel severamente necrótica"
+  STR_NECROPHAGE_BLUTBAD_UFOPEDIA: "La fase final de la infección viral RZX convierte al huésped en un sujeto sediento de sangre con una agresividad aumentada pero con una estructura corporal severamente debilitada. Su característica más reconocible es la gran cantidad de heridas abiertas en todo el cuerpo, que propagan el virus. El nombre es una combinación de las palabras alemanas 'Blut' y 'bat', que significa 'Baño de sangre'."
+   
+  STR_NECROPHAGE_SHAMBLER_CORPSE: "Cadáver de Necrófago deambulador"
+  STR_NECROPHAGE_VIRULENT_CORPSE: "Cadáver de Necrófago virulento"
+  STR_NECROPHAGE_BLUTBAD_CORPSE: "Cadáver de Necrófago Blutbad"
+
+  STR_NECROPHAGE_RESEARCH: "Investigación sobre el virus necrófago"
+  STR_NECROPHAGE_RESEARCH_UFOPEDIA: "Esta enfermedad viral, desconocida hasta ahora, parece afectar solo a individuos sanos y se transmite por contacto directo con la piel y fluidos. El virus no parece durar mucho tiempo suspendido en el aire, por lo que la posibilidad de infección por vía aérea queda completamente descartada. Al obtener las muestras de un cadáver 'virulento', podríamos rastrear su origen."
+  STR_NECROPHAGE_RESEARCH_PROGRESS: "Progreso del virus necrófago"
+  STR_NECROPHAGE_RESEARCH_PROGRESS_UFOPEDIA: "Nuestro grupo de trabajo no está preparado para realizar investigaciones científicas, por lo que todos nuestros datos se recopilan y se envían a laboratorios especializados que trabajan en la lucha contra la infección. Hasta ahora, los resultados apuntan a un origen completamente artificial, muy probablemente un acto de bioterrorismo. Se requiere una muestra de un 'Blutbad' infectado."
+  STR_NECROPHAGE_RESEARCH_FINAL: "El virus necrófago, informe final"
+  STR_NECROPHAGE_RESEARCH_FINAL_UFOPEDIA: "Las autoridades sanitarias han logrado localizar la fuente de la infección: un consorcio farmacéutico transnacional que liberó la plaga en naciones 'ricas' con el objetivo de debilitar a las corporaciones rivales. Parecen estar conectados con la entidad oscura que se esconde tras otros actos de terrorismo. La amenaza de los 'no muertos' probablemente se detendría una vez que el socio principal fuera derrotado."
+  STR_NECROPHAGE_UNIFORM: "Operador infectado"
+  STR_NECROPHAGE_UNIFORM_ARMOR: "Operador infectado"
+  STR_NECROPHAGE_KEVLAR: "Operador infectado"
+  STR_NECROPHAGE_KEVLAR_ARMOR: "Operador infectado"
+  STR_NECROPHAGE_HEAVY: "Operador infectado"
+  STR_NECROPHAGE_HEAVY_ARMOR: "Operador infectado"
+
+  STR_CLAW: "Garra infectada"
+  STR_SPIT: "Escupitajo tóxico"
+
+  STR_PHARMACEUTICAL_NECROPHAGES: "Horda controlada"
+  STR_NECROPHAGE_HARD: "Horda de necrófagos grande"
+  STR_NECROPHAGE_EASY: "Horda de necrófagos pequeña"
+
+  MINOR_OUTBREAK_EAST_EU: "Brote menor, Europa del Este"
+  MINOR_OUTBREAK_USA: "Brote menor, EE. UU."
+  MINOR_OUTBREAK_WEST_EU: "Brote menor, Europa Occidental"
+  MAJOR_OUTBREAK_EAST_EU: "Brote mayor, Europa del Este"
+  MAJOR_OUTBREAK_USA: "Brote mayor, EE. UU."
+  MAJOR_OUTBREAK_WEST_EU: "Brote mayor, Europa Occidental"
+  LAB_RAID_EAST_EU: "Incursión en laboratorio, Europa del Este"
+  LAB_RAID_USA: "Incursión en laboratorio, EE. UU."
+  LAB_RAID_WEST_EU: "Incursión en laboratorio, Europa Occidental"
+
+  STR_MINOR_OUTBREAK: "Brote menor"
+  STR_MAJOR_OUTBREAK: "Brote mayor"
+  STR_LAB_RAID: "Incursión en laboratorio"
+
+  MAP_OFFICE: "Oficina"
+  CTO_OFFICE: "Oficina corporativa"
+  MAP_CTO_OFFICE_WEST_EUROPE: "Oficina corporativa" #LA ÚNICA QUE FUNCIONA
+
+  STR_LAB_EVIDENCE: "Evidencia de laboratorio"
+
+  STR_MINOR_OUTBREAK_BRIEFING: "La policía local nos ha alertado de un brote viral en curso. La zona ha sido acordonada y, aunque la policía local ha combatido a los infectados, aún quedan varios enemigos. Se están llevando a cabo esfuerzos de evacuación de civiles, pero es posible que algunos civiles aún permanezcan en la zona de operaciones."
+
+  STR_MAJOR_OUTBREAK_BRIEFING: "Se está produciendo un importante ataque de brote y nos han llamado para ayudar. La policía local se ha visto desbordada y los esfuerzos por contener el ataque han sido en su mayoría infructuosos. Aún quedan varios civiles en la zona. Es fundamental que detengamos el ataque, ya que un fracaso tendría consecuencias desastrosas."
+  STR_LAB_RAID_BRIEFING: "Intel ha señalado a este complejo de oficinas farmacéuticas como la fuente de la infección por RZX. Tenga cuidado, hay informes de que las fuerzas de seguridad privadas están bien equipadas y entrenadas, no deben subestimarse. Se debe evitar el exceso de potencia de fuego ya que todavía hay civiles ubicados en las oficinas y evidencia vital que no debe destruirse."
+
+  STR_PAIN_KILLER: "CURA"
+  STR_MEDI_KIT_QUANTITIES_LEFT: "Curar>{ALT}{0}{ALT}{NEWLINE}Estimular>{ALT}{1}{ALT}{NEWLINE}Curar>{ALT}{2}"

@@ -1,13 +1,6 @@
 # Requires Extended-7.0-ea2092bc5-2021-03-22
 # Updated for 7.5.8
 
-extraStrings:
-  - type: en-US
-    strings:
-      STR_PAIN_KILLER: "CURE"
-      STR_MEDI_KIT_QUANTITIES_LEFT: "Cure>{ALT}{0}{ALT}{NEWLINE}Stim>{ALT}{1}{ALT}{NEWLINE}Heal>{ALT}{2}"
-
-
 extended:
   tags:
     BattleUnit:

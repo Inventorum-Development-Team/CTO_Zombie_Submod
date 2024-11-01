@@ -44,9 +44,3 @@ alienRaces:
       - STR_NECROPHAGE_SHAMBLER
       - STR_NECROPHAGE_SHAMBLER
       - STR_NECROPHAGE_SHAMBLER
-extraStrings:
-  - type: en-US
-    strings:
-      STR_PHARMACEUTICAL_NECROPHAGES: "Controlled Horde"
-      STR_NECROPHAGE_HARD: "Large Necrophage Horde"
-      STR_NECROPHAGE_EASY: "Small Necrophage Horde"
