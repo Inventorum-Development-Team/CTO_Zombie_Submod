@@ -8,6 +8,7 @@ Credits:
 * Buscher: scripts
 * Wolfstarr: adapted Necrophage spritesheet
 * UFO2000 Staff: original Necrophage sprites
+* Brother^2: ruleset support
 
 ##################################
 

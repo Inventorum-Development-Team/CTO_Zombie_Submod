@@ -87,6 +87,41 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
+    reinforcements:
+      - type: zombie_horde
+        turns: [1, 2, 3]
+        maxRuns: 3
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 5
+            lowQty: 2
+            highQty: 4
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 4
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 3
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 2
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            itemSets:
+             - []          
   - type: MINOR_OUTBREAK_U
     width: 30
     length: 30
@@ -246,7 +281,41 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
-
+    reinforcements:
+      - type: zombie_horde
+        turns: [1, 2, 3]
+        maxRuns: 3
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 5
+            lowQty: 2
+            highQty: 4
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 4
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 3
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 2
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            itemSets:
+             - []
   - type: MAJOR_OUTBREAK_EAST_EU
     width: 60
     length: 60
@@ -305,6 +374,41 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
+    reinforcements:
+      - type: zombie_horde
+        turns: [2, 4, 6]
+        maxRuns: 3
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 5
+            lowQty: 2
+            highQty: 6
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 4
+            lowQty: 2
+            highQty: 5
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 3
+            lowQty: 5
+            highQty: 6
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 2
+            lowQty: 5
+            highQty: 5
+            dQty: 0
+            itemSets:
+             - []
   - type: MAJOR_OUTBREAK_USA
     width: 60
     length: 60
@@ -365,6 +469,41 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
+    reinforcements:
+      - type: zombie_horde
+        turns: [2, 4, 6]
+        maxRuns: 3
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 5
+            lowQty: 2
+            highQty: 6
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 4
+            lowQty: 2
+            highQty: 5
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 3
+            lowQty: 5
+            highQty: 6
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 2
+            lowQty: 5
+            highQty: 5
+            dQty: 0
+            itemSets:
+             - []
   - type: MAJOR_OUTBREAK_WEST_EU
     width: 60
     length: 60
@@ -423,7 +562,41 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
-
+    reinforcements:
+      - type: zombie_horde
+        turns: [2, 4, 6]
+        maxRuns: 3
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 5
+            lowQty: 2
+            highQty: 6
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 4
+            lowQty: 2
+            highQty: 5
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 3
+            lowQty: 5
+            highQty: 6
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 2
+            lowQty: 5
+            highQty: 5
+            dQty: 0
+            itemSets:
+             - []
   - type: LAB_RAID_EAST_EU
     width: 30
     length: 30
@@ -480,6 +653,41 @@ alienDeployments:
              - STR_AK15
              - STR_SOVIET_7_62_X40
              - STR_SOVIET_7_62_X30
+    reinforcements:
+      - type: zombie_horde
+        turns: [3, 5, 7]
+        maxRuns: 3
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 5
+            lowQty: 2
+            highQty: 4
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 4
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 3
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 2
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            itemSets:
+             - []
   - type: LAB_RAID_USA
     width: 30
     length: 30
@@ -536,6 +744,41 @@ alienDeployments:
              - STR_M4A1
              - STR_5_56_X30
              - STR_5_56_X30
+    reinforcements:
+      - type: zombie_horde
+        turns: [3, 5, 7]
+        maxRuns: 3
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 5
+            lowQty: 2
+            highQty: 4
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 4
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 3
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 2
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            itemSets:
+             - []
   - type: LAB_RAID_WEST_EU
     width: 30
     length: 30
@@ -592,4 +835,39 @@ alienDeployments:
              - STR_HK416
              - STR_5_56_X30
              - STR_5_56_X30
+    reinforcements:
+      - type: zombie_horde
+        turns: [3, 5, 7]
+        maxRuns: 3
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 5
+            lowQty: 2
+            highQty: 4
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 4
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 3
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            itemSets:
+             - []
+          - alienRank: 2
+            lowQty: 1
+            highQty: 3
+            dQty: 0
+            itemSets:
+             - []
  
