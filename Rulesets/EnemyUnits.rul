@@ -9,7 +9,7 @@ items:
     battleType: 11
     armor: 30
     recoverCorpse: true
-    recover: false
+    recover: true
   - type: STR_NECROPHAGE_VIRULENT_CORPSE
     name: STR_CORPSE
     weight: 50
@@ -20,7 +20,7 @@ items:
     battleType: 11
     armor: 30
     recoverCorpse: true
-    recover: false
+    recover: true
   - type: STR_NECROPHAGE_BLUTBAD_CORPSE
     name: STR_CORPSE
     weight: 50
@@ -31,7 +31,7 @@ items:
     battleType: 11
     armor: 30
     recoverCorpse: true
-    recover: false
+    recover: true
   - type: STR_NECROPHAGE_UNIFORM_CORPSE
     name: STR_CORPSE
     weight: 50
@@ -67,15 +67,15 @@ items:
     recover: false
 
   - type: STR_NECROPHAGE_SHAMBLER
-    liveAlien: true
+    liveAlien: false
     costSell: 100000
     size: 0
   - type: STR_NECROPHAGE_VIRULENT
-    liveAlien: true
+    liveAlien: false
     costSell: 70000
     size: 0
   - type: STR_NECROPHAGE_BLUTBAD
-    liveAlien: true
+    liveAlien: false
     costSell: 35000
     size: 0
 
