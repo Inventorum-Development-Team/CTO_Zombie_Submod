@@ -137,7 +137,7 @@ ufopaedia:
     text: STR_NECROPHAGE_SHAMBLER_UFOPEDIA
     section: STR_REPORTS
     requires:
-      - STR_NECROPHAGE_SHAMBLER_UFOPEDIA
+      - STR_NECROPHAGE_SHAMBLER
     listOrder: 30
 
   - id: STR_NECROPHAGE_RESEARCH
