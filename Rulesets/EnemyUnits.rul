@@ -145,7 +145,7 @@ armors:
     spriteInv: NECROPHAGE_BLUTBAD_INVENTORY
     frontArmor: 5
     allowInv: true
-    
+
     sideArmor: 5
     rearArmor: 5
     underArmor: 4

@@ -121,7 +121,7 @@ alienDeployments:
             highQty: 3
             dQty: 0
             itemSets:
-             - []          
+             - []
   - type: MINOR_OUTBREAK_USA
     width: 30
     length: 30
@@ -649,7 +649,7 @@ alienDeployments:
          lowQty: 1
          highQty: 1
          itemSets:
-           - 
+           -
              - STR_AK15
              - STR_SOVIET_7_62_X40
              - STR_SOVIET_7_62_X30
@@ -740,7 +740,7 @@ alienDeployments:
          lowQty: 1
          highQty: 1
          itemSets:
-           - 
+           -
              - STR_M4A1
              - STR_5_56_X30
              - STR_5_56_X30
@@ -831,7 +831,7 @@ alienDeployments:
          lowQty: 1
          highQty: 1
          itemSets:
-           - 
+           -
              - STR_HK416
              - STR_5_56_X30
              - STR_5_56_X30
@@ -870,4 +870,3 @@ alienDeployments:
             dQty: 0
             itemSets:
              - []
- 

@@ -6,7 +6,7 @@ extended:
 items:
   - type: STR_MEDI_KIT
     painKiller: 3 # for statsfornerds
-    
+
   - delete: CHRYSSALID_WEAPON
 
   - type: CHRYSSALID_WEAPON

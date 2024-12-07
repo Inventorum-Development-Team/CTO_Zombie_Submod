@@ -11,7 +11,7 @@ extended:
       RESEARCH_LEVEL_CURE: int
 
   scripts:
-    returnFromMissionUnit: 
+    returnFromMissionUnit:
       - offset: 22 # wrack unit
         code: |
           # intent is wrack the unit if researchLevel is 0 (-20 health, -10 everything else but psi)
@@ -23,7 +23,7 @@ extended:
           var int researchLevel;
            var int temp;
 
-          unit.getTag infectionDamage Tag.CURRENT_INFECTION_DAMAGE; 
+          unit.getTag infectionDamage Tag.CURRENT_INFECTION_DAMAGE;
           battle_game.getTag researchLevel Tag.RESEARCH_LEVEL_CURE;
 
           set statsDamage -10;
@@ -53,7 +53,7 @@ extended:
 
           return;
 
-    damageUnit: 
+    damageUnit:
       - offset: 22 # infect unit
         code: |
           var ptr RuleArmor armorRule;
@@ -88,7 +88,7 @@ extended:
           var int remainingHealth;
           var ptr RuleUnit myRuleUnit;
 
-          unit.getTag infectionDamage Tag.CURRENT_INFECTION_DAMAGE; 
+          unit.getTag infectionDamage Tag.CURRENT_INFECTION_DAMAGE;
 
           if eq infectionDamage 0; # is not infected
             return;
@@ -107,7 +107,7 @@ extended:
           return;
 
 
-    createItem: 
+    createItem:
       - offset: 22 # get research level (only once) # 1: research done, 2: one topic, 3: both topics
         code: |
           var ptr GeoscapeGame geoScape;
@@ -118,13 +118,13 @@ extended:
 
           battle_game.getTag researchLevel Tag.RESEARCH_LEVEL_CURE;
           if eq researchLevel 0;
-            set researchLevel 1; 
+            set researchLevel 1;
             battle_game.getGeoscapeGame geoScape;
 
             rules.getRuleResearch researchTopic "STR_NECROPHAGE_SHAMBLER_CORPSE";
             geoScape.isResearched temp researchTopic;
             if neq temp 0;
-              add researchLevel 1; 
+              add researchLevel 1;
             end;
 
             rules.getRuleResearch researchTopic "STR_NECROPHAGE_VIRULENT_CORPSE";
@@ -148,7 +148,7 @@ extended:
           var int researchLevel;
           var int temp;
           var ptr RuleResearch researchTopic;
-          
+
           item.getPainKillerQuantity temp;
           if eq temp 0;
             return;
@@ -156,14 +156,14 @@ extended:
 
           battle_game.getTag researchLevel Tag.RESEARCH_LEVEL_CURE;
           sub researchLevel 1; # either 0, 1, 2 as base
-          mul researchLevel 2; 
+          mul researchLevel 2;
           sub researchLevel 1; # may become a problem?
-         
+
           item.setPainKillerQuantity researchLevel;
 
           return;
 
-    newTurnUnit: 
+    newTurnUnit:
       - offset: 22 # damage per turn including zombification
         code: |
           var int infectionDamage;
@@ -180,7 +180,7 @@ extended:
             return;
           end;
 
-          unit.getTag infectionDamage Tag.CURRENT_INFECTION_DAMAGE; 
+          unit.getTag infectionDamage Tag.CURRENT_INFECTION_DAMAGE;
 
           if eq infectionDamage 0;
             return;
@@ -192,17 +192,17 @@ extended:
             unit.setSpawnUnit myRuleUnit;
             unit.setSpawnUnitInstantRespawn 1;
             unit.setTag Tag.CURRENT_INFECTION_DAMAGE 0; #untag
-            unit.setHealth remainingHealth; 
+            unit.setHealth remainingHealth;
             return;
 
           end;
-          unit.setHealth remainingHealth; 
+          unit.setHealth remainingHealth;
 
           return;
 
 
 
-    recolorUnitSprite: 
+    recolorUnitSprite:
       - offset: 22 # change unit color to green so player knows who's infected
         code: |
           var int infectionDamage;
@@ -216,7 +216,7 @@ extended:
           return new_pixel;
 
 
-    recolorItemSprite: 
+    recolorItemSprite:
       - offset: 22 # change unit color to green so player knows who's infected
         code: |
           var int infectionDamage; # would be cool if I could get the offset so I could change specific pixels to show a number

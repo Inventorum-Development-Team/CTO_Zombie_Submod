@@ -137,7 +137,7 @@ research:
   - delete: STR_BATTLESHIP
   - delete: STR_SUPPLY_SHIP
 
- 
+
   - name: STR_NECROPHAGE_SHAMBLER_CORPSE
     needItem: true
     cost: 30
@@ -160,7 +160,7 @@ research:
     cost: 50
     dependencies:
      - STR_NECROPHAGE_RESEARCH_PROGRESS
-    
+
 
   - name: STR_NECROPHAGE_RESEARCH
     cost: 50
