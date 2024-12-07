@@ -9,6 +9,8 @@ extended:
       CAN_DO_INFECTION_DAMAGE: int
     BattleGame:
       RESEARCH_LEVEL_CURE: int
+    RuleArmor: 
+      ZOMBIFICATION_INDEX: int
 
   scripts:
     returnFromMissionUnit:
@@ -64,6 +66,8 @@ extended:
           weapon_item.getRuleItem itemRule;
           itemRule.getTag infectionDamage Tag.CAN_DO_INFECTION_DAMAGE;
 
+          set to_transform 0; # do not insta zombify # in general it works when there is no zombieUnitByArmorMale, etc.
+
           if eq infectionDamage 0; # can't infect
             return;
           end;
@@ -87,6 +91,8 @@ extended:
           var int infectionDamage;
           var int remainingHealth;
           var ptr RuleUnit myRuleUnit;
+          var ptr RuleArmor myRuleArmor;
+          var int temp;
 
           unit.getTag infectionDamage Tag.CURRENT_INFECTION_DAMAGE;
 
@@ -98,7 +104,19 @@ extended:
           sub remainingHealth to_health;
 
           if le remainingHealth 0; # gets killed by this attack
-            rules.getRuleUnit myRuleUnit "STR_NECROPHAGE_SHAMBLER";
+            # LOOK UP TABLE
+            unit.getRuleArmor myRuleArmor;
+            myRuleArmor.getTag temp Tag.ZOMBIFICATION_INDEX;
+
+            if eq temp 1; # STR_DEFAULT
+              rules.getRuleUnit myRuleUnit "STR_NECROPHAGE_UNIFORM";
+            else eq temp 2; # STR_KEVLAR
+              rules.getRuleUnit myRuleUnit "STR_NECROPHAGE_KEVLAR";
+            else eq temp 3; # STR_HEAVY
+              rules.getRuleUnit myRuleUnit "STR_NECROPHAGE_HEAVY";
+            else;
+              rules.getRuleUnit myRuleUnit "STR_NECROPHAGE_SHAMBLER";
+            end;
             unit.setSpawnUnit myRuleUnit;
             unit.setSpawnUnitInstantRespawn 1;
             unit.setTag Tag.CURRENT_INFECTION_DAMAGE 0; #untag
