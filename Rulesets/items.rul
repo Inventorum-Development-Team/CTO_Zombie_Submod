@@ -1,3 +1,8 @@
+extended:
+  tags:
+    RuleItem:
+      CAN_DO_INFECTION_DAMAGE: int
+
 items:
 
   - type: STR_CLAW
