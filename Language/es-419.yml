@@ -60,5 +60,6 @@ es-419:
   STR_MAJOR_OUTBREAK_BRIEFING: "Se está produciendo un importante ataque de brote y nos han llamado para ayudar. La policía local se ha visto desbordada y los esfuerzos por contener el ataque han sido en su mayoría infructuosos. Aún quedan varios civiles en la zona. Es fundamental que detengamos el ataque, ya que un fracaso tendría consecuencias desastrosas."
   STR_LAB_RAID_BRIEFING: "Intel ha señalado a este complejo de oficinas farmacéuticas como la fuente de la infección por RZX. Tenga cuidado, hay informes de que las fuerzas de seguridad privadas están bien equipadas y entrenadas, no deben subestimarse. Se debe evitar el exceso de potencia de fuego ya que todavía hay civiles ubicados en las oficinas y evidencia vital que no debe destruirse."
 
+  STR_MEDI_KIT: "RZX Antidote"
   STR_PAIN_KILLER: "CURA"
   STR_MEDI_KIT_QUANTITIES_LEFT: "Curar>{ALT}{0}{ALT}{NEWLINE}Estimular>{ALT}{1}{ALT}{NEWLINE}Curar>{ALT}{2}"

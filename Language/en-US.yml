@@ -60,5 +60,6 @@ en-US:
   STR_MAJOR_OUTBREAK_BRIEFING: "A major outbreak attack is ongoing and we've been called in to assist. Local police has been overwhelmed and efforts to contain the attack have mostly been unsuccessful. Multiple civilians are still in the area. It is integral that we stop the attack as failure would have disastrous consequences."
   STR_LAB_RAID_BRIEFING: "Intel has pointed out to this pharmaceutical office complex as the source of the RZX infection. Be warned, there are reports of private security forces are well equipped and trained, they should not be underestimated. Excessive firepower should be avoided as there is both civilians still located in the offices and vital evidence that must not be destroyed."
 
+  STR_MEDI_KIT: "RZX Antidote"
   STR_PAIN_KILLER: "CURE"
   STR_MEDI_KIT_QUANTITIES_LEFT: "Cure>{ALT}{0}{ALT}{NEWLINE}Stim>{ALT}{1}{ALT}{NEWLINE}Heal>{ALT}{2}"
