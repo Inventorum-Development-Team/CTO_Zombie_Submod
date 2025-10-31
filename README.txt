@@ -14,6 +14,15 @@ Credits:
 
 CHANGELOG:
 
+31-Oct-2025
+* Removed reinforcement mechanics
+* Changed death sounds
+* Fixed grammar issues
+
+##################################
+
+CHANGELOG:
+
 01-Nov-2024
 * Added Necrophage units
     - Necrophage Shambler

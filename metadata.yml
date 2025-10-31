@@ -1,8 +1,7 @@
 name: "CTO - Día de los Muertos"
-version: "1.0"
+version: "1.1"
 author: "Inventorum Development Team"
 description: "Submod for CTO, adds zombie enemies and missions"
 id: cto_zombie_submod
 master: CTO
 reservedSpace: 5
-requiredExtendedVersion: "7.11"
