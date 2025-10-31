@@ -249,7 +249,7 @@ units:
     armor: STR_NECROPHAGE_BLUTBAD_ARMOR
     standHeight: 21
     kneelHeight: 16
-    deathSound: [ 41, 42, 43 ]
+    deathSound: [ 9 ]
     value: 30
     aggression: 8
     intelligence: 3
@@ -279,7 +279,7 @@ units:
     armor: STR_NECROPHAGE_VIRULENT_ARMOR
     standHeight: 21
     kneelHeight: 16
-    deathSound: [ 41, 42, 43 ]
+    deathSound: [ 9 ]
     value: 20
     aggression: 8
     intelligence: 3
@@ -309,7 +309,7 @@ units:
     armor: STR_NECROPHAGE_SHAMBLER_ARMOR
     standHeight: 21
     kneelHeight: 16
-    deathSound: [ 41, 42, 43 ]
+    deathSound: [ 9 ]
     value: 10
     aggression: 8
     intelligence: 3
@@ -339,7 +339,7 @@ units:
     armor: STR_NECROPHAGE_UNIFORM_ARMOR
     standHeight: 21
     kneelHeight: 16
-    deathSound: [ 41, 42, 43 ]
+    deathSound: [ 9 ]
     value: 30
     aggression: 8
     intelligence: 3
@@ -369,7 +369,7 @@ units:
     armor: STR_NECROPHAGE_KEVLAR_ARMOR
     standHeight: 21
     kneelHeight: 16
-    deathSound: [ 41, 42, 43 ]
+    deathSound: [ 9 ]
     value: 10
     aggression: 8
     intelligence: 3
@@ -399,7 +399,7 @@ units:
     armor: STR_NECROPHAGE_HEAVY_ARMOR
     standHeight: 21
     kneelHeight: 16
-    deathSound: [ 41, 42, 43 ]
+    deathSound: [ 9 ]
     value: 10
     aggression: 8
     intelligence: 3
