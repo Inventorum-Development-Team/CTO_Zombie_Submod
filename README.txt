@@ -15,7 +15,11 @@ Credits:
 CHANGELOG:
 
 31-Oct-2025
-* Removed reinforcement mechanics
+* Updated to OXCE v8.4
+* Lookup Table for HCAT zombification
+* Fixed Necrophage Shambler armor not appearing in the Reports Folder
+* Moved Necrophage armor reports to Enemy Units section
+* Removed reinforcement mechanics from Minor Outbreaks
 * Changed death sounds
 * Fixed grammar issues
 
