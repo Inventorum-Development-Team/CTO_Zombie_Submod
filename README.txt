@@ -15,6 +15,7 @@ Credits:
 CHANGELOG:
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 * Updated to OXCE v8.4
 * Lookup Table for HCAT zombification
@@ -25,11 +26,16 @@ CHANGELOG:
 * Fixed grammar issues
 
 =======
+=======
+>>>>>>> Stashed changes
 31-October-2025
 * Updated to OXCE v8.4, by Buscher
 * Lookup Table for HCAT zombification, by Buscher
 * Fixed Necrophage Shambler armor not appearing in the Reports Folder
 * Moved Necrophage armor reports to Enemy Units section
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 01-Nov-2024
