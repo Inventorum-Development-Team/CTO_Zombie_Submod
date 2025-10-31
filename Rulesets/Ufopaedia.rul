@@ -135,9 +135,9 @@ ufopaedia:
   - id: STR_NECROPHAGE_SHAMBLER_ARMOR
     type_id: 5
     text: STR_NECROPHAGE_SHAMBLER_UFOPEDIA
-    section: STR_REPORTS
+    section: STR_UFOPAEDIA_ENEMIES
     requires:
-      - STR_NECROPHAGE_SHAMBLER
+      - STR_NECROPHAGE_SHAMBLER_CORPSE
     listOrder: 30
 
   - id: STR_NECROPHAGE_RESEARCH
@@ -151,7 +151,7 @@ ufopaedia:
   - id: STR_NECROPHAGE_VIRULENT_ARMOR
     type_id: 5
     text: STR_NECROPHAGE_VIRULENT_UFOPEDIA
-    section: STR_REPORTS
+    section: STR_UFOPAEDIA_ENEMIES
     requires:
       - STR_NECROPHAGE_VIRULENT_CORPSE
     listOrder: 32
@@ -167,7 +167,7 @@ ufopaedia:
   - id: STR_NECROPHAGE_BLUTBAD_ARMOR
     type_id: 5
     text: STR_NECROPHAGE_BLUTBAD_UFOPEDIA
-    section: STR_REPORTS
+    section: STR_UFOPAEDIA_ENEMIES
     requires:
       - STR_NECROPHAGE_BLUTBAD_CORPSE
     listOrder: 34

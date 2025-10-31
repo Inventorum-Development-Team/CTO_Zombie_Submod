@@ -14,7 +14,7 @@ Credits:
 
 CHANGELOG:
 
-31-Oct-2025
+
 * Updated to OXCE v8.4
 * Lookup Table for HCAT zombification
 * Fixed Necrophage Shambler armor not appearing in the Reports Folder
@@ -23,9 +23,6 @@ CHANGELOG:
 * Changed death sounds
 * Fixed grammar issues
 
-##################################
-
-CHANGELOG:
 
 01-Nov-2024
 * Added Necrophage units
