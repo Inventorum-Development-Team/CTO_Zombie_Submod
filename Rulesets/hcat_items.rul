@@ -5,7 +5,23 @@ extended:
 
 items:
   - type: STR_MEDI_KIT
-    painKiller: 3 # for statsfornerds
+    requiresBuy:
+      - STR_MEDI_KIT
+    size: 0.1
+    costSell: 46500
+    weight: 5
+    bigSprite: 24
+    floorSprite: 24
+    battleType: 6
+    invWidth: 1
+    invHeight: 2
+    painKiller: 3
+    woundRecovery: 1
+    healthRecovery: 3
+    stunRecovery: 4
+    energyRecovery: 10
+    tuUse: 10
+    flatRate: true
 
   - delete: CHRYSSALID_WEAPON
 
