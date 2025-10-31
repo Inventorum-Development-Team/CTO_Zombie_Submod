@@ -435,7 +435,7 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
-       - alienRank: 1
+       - alienRank: 0
          lowQty: 1
          highQty: 3
          itemSets:
@@ -491,7 +491,7 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
-       - alienRank: 1
+       - alienRank: 0
          lowQty: 1
          highQty: 3
          itemSets:
@@ -547,7 +547,7 @@ alienDeployments:
          highQty: 0
          itemSets:
           - []
-       - alienRank: 1
+       - alienRank: 0
          lowQty: 1
          highQty: 3
          itemSets:
