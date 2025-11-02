@@ -1,33 +1,33 @@
 # spellchecker:words Stratofortress Skyhawks Thunderchiefs Leonov
-eventScripts:
-
-  - type: STR_JOHN_WICK_EVENT_SCRIPT
-    oneTimeSequentialEvents:
-     - STR_JOHN_WICK_EVENT
-    firstMonth: 0
-
-events:
+#eventScripts:
+#
+#  - type: STR_JOHN_WICK_EVENT_SCRIPT
+#    oneTimeSequentialEvents:
+#     - STR_JOHN_WICK_EVENT
+#    firstMonth: 0
+#
+#events:
 #    regionList: [STR_ARCTIC, STR_NORTH_AMERICA, STR_EUROPE, STR_SOUTH_AMERICA, STR_NORTH_AFRICA, STR_SOUTHERN_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA, STR_NORTH_PACIFIC, STR_SOUTH_PACIFIC, STR_NORTH_ATLANTIC, STR_SOUTH_ATLANTIC, STR_INDIAN_OCEAN]
-
-  - name: STR_JOHN_WICK_EVENT
-    description: STR_JOHN_WICK_EVENT_DESCRIPTION
-    background: JOHN_WICK_EVENT_BACKGROUND
-    points: 100
-    spawnedPersons: 1
-    spawnedPersonType: STR_JOHN_WICK_SOLDIER
-    everyItemList: [STR_PENCIL, STR_CROTALUS_PISTOL, STR_CROTALUS_PISTOL_MAG, STR_CROTALUS_PISTOL_MAG, STR_CROTALUS_PISTOL_MAG, STR_CROTALUS_PISTOL_MAG, STR_CROTALUS_PISTOL_MAG, STR_CROTALUS_PISTOL_MAG, STR_CROTALUS_PISTOL_MAG, STR_CROTALUS_PISTOL_MAG, STR_CROTALUS_PISTOL_MAG]
-    timer: 600
-    timerRandom: 600
-
-extraSprites:
+#
+#  - name: STR_JOHN_WICK_EVENT
+#    description: STR_JOHN_WICK_EVENT_DESCRIPTION
+#    background: JOHN_WICK_EVENT_BACKGROUND
+#    points: 100
+#    spawnedPersons: 1
+#    spawnedPersonType: STR_JOHN_WICK_SOLDIER
+#    everyItemList: [STR_PENCIL, STR_CROTALUS_PISTOL, STR_CROTALUS_PISTOL_MAG, STR_CROTALUS_PISTOL_MAG, STR_CROTALUS_PISTOL_MAG, STR_CROTALUS_PISTOL_MAG, STR_CROTALUS_PISTOL_MAG, STR_CROTALUS_PISTOL_MAG, STR_CROTALUS_PISTOL_MAG, STR_CROTALUS_PISTOL_MAG, STR_CROTALUS_PISTOL_MAG]
+#    timer: 600
+#    timerRandom: 600
+#
+#extraSprites:
 ##########################################
 ############ BACKGROUNDS #################
 ##########################################
-
-  - type: JOHN_WICK_EVENT_BACKGROUND
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Backgrounds/Events/JOHN_WICK_EVENT_BACKGROUND.PNG
+#
+#  - type: JOHN_WICK_EVENT_BACKGROUND
+#    singleImage: true
+#    width: 320
+#    height: 200
+#    files:
+#      0: Resources/Backgrounds/Events/JOHN_WICK_EVENT_BACKGROUND.PNG
 
