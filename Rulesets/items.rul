@@ -4,6 +4,145 @@ extended:
       CAN_DO_INFECTION_DAMAGE: int
 
 items:
+  - type: STR_PURIFIER_FLAMETHROWER
+    categories: [ STR_FIREARMS, STR_LMGS ]
+    requiresBuy:
+      - STR_CHEMICAL_SOLUTION
+    size: 0.02
+    costBuy: 42000
+    costSell: 36500
+    weight: 10
+    bigSprite: 2008
+    floorSprite: 2008
+    handSprite: 2064
+    bulletSprite: 30
+    fireSound: 2967
+    compatibleAmmo:
+      - STR_PURIFIER_FLAMETHROWER_AMMO
+    accuracyCloseQuarters: 100
+    accuracyAuto: 75
+    costThrow:
+      energy: 20
+    battleType: 1
+    twoHanded: true
+    arcingShot: true
+    autoRange: 15
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+#    explosionHitSound: 113
+    hitAnimation: 0
+    power: 120
+    costAuto:
+      time: 35
+      mana: 10
+    damageType: 2
+    damageAlter:
+      RandomType: 6
+      ToArmorPre: 0.4
+      ToMorale: 1.5
+      FireThreshold: 1
+      SmokeThreshold: 1000
+    clipSize: -1
+    autoShots: 5
+    sprayWaypoints: 2
+#    bulletSpeed: 8
+    experienceTrainingMode: 7
+    attraction: 7
+    vaporColorSurface: 13
+    vaporDensitySurface: 10
+    vaporProbabilitySurface: 100
+
+  - type: STR_PURIFIER_FLAMETHROWER_AMMO
+    categories: [ STR_FIREARMS, STR_LMGS ]
+    requiresBuy:
+      - STR_CHEMICAL_SOLUTION
+    size: 0.02
+    costBuy: 42000
+    costSell: 36500
+    weight: 10
+    bigSprite: 2008
+    floorSprite: 2008
+    handSprite: 2064
+    hitAnimation: 26
+    bulletSprite: 3
+    battleType: 2
+    damageType: 2
+    damageAlter:
+      RandomType: 8
+      FireThreshold: 0
+      FixRadius: 0
+      SmokeThreshold: 1000
+      FireBlastCalc: false
+      IgnoreSelfDestruct: false
+      IgnoreDirection: false
+      ArmorEffectiveness: 0.75
+      ToArmor: 0.1
+      ToWound: 1.0
+      ToTile: 0.5
+      ToStun: 0.25
+      ToMorale: 2
+      RandomMorale: true
+      TileDamageMethod: 1
+      IgnoreOverKill: true
+
+
+  - type: STR_CHAIN_SAW
+    categories: [ STR_FIREARMS, STR_LMGS ]
+    requiresBuy:
+      - STR_M249_ACQUISITION
+      - STR_ANTI_ZOMBIE_SUPPORT_WEAPON
+    size: 1
+    weight: 52
+    # battleType: 1
+    bigSprite: 1896
+    floorSprite: 1896
+    handSprite: 1896
+    reloadSound: 160
+    fireSound: 161
+    costBuy: 53000
+    costSell: 26500
+    accuracySnap: 60
+    accuracyAuto: 30
+    blockBothHands: true
+    twoHanded: true
+    maxRange: 200
+    minRange: 5
+    snapRange: 30
+    autoRange: 15
+    kneelBonus: 145
+    battleType: 1
+    tuSnap: 45
+    tuAuto: 70
+    invWidth: 2
+    invHeight: 3
+    ammo:
+      0:
+        compatibleAmmo: [ STR_5_56_X100 ]
+        tuLoad: 40
+        tuUnload: 20
+      1:
+        compatibleAmmo:
+          [
+            STR_40MM_FRAG_X1,
+            STR_40MM_SMOKE_X1,
+            STR_40MM_NON_LETHAL_X1
+          ]
+        tuLoad: 40
+        tuUnload: 20
+    listOrder: 6280
+    sprayWaypoints: 2
+    confAimed:
+      shots: 3
+      name: STR_BURST
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 1
+      name: STR_FIRE_GRENADE
+      ammoSlot: 1
+      arcing: true
+
 
   - type: STR_CLAW
     weight: 3

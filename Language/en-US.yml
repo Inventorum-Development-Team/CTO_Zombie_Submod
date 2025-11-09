@@ -63,3 +63,8 @@ en-US:
   STR_MEDI_KIT: "RZX Antidote"
   STR_PAIN_KILLER: "CURE"
   STR_MEDI_KIT_QUANTITIES_LEFT: "Cure>{ALT}{0}{ALT}{NEWLINE}Stim>{ALT}{1}{ALT}{NEWLINE}Heal>{ALT}{2}"
+
+  STR_PURIFIER_FLAMETHROWER: "XF Mk.1 Purifier Flamethrower"
+  STR_PURIFIER_FLAMETHROWER_UFOPEDIA: "Larger outbreaks require more complex containment and cleaning measures, often involving large sanitization crews. This prototype flamethrower uses a propertary chemical mix with napalm and other compounds. It's also "
+  STR_PURIFIER_FLAMETHROWER_AMMO: "Purifier Fuel Tank"
+  STR_PURIFIER_FLAMETHROWER_AMMO_UFOPEDIA: "Our technicians have developed this high inflammable compound to "
