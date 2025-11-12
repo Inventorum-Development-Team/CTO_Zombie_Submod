@@ -200,3 +200,26 @@ items:
       CAN_DO_INFECTION_DAMAGE: 10
     damageBonus:
       strength: 0.5
+
+
+extraSprites:
+  - type: BIGOB.PCK
+    files:
+      5432: Resources/BallisticWeapons/Artillery/BigRG6.png
+      #5440: Resources/BallisticWeapons/Artillery/BigRG6.png
+
+  - type: FLOOROB.PCK
+    files:
+      #5432: Resources/BallisticWeapons/Artillery/BigRG6.png
+      #5440: Resources/BallisticWeapons/Artillery/BigRG6.png
+      5448: Resources/BallisticWeapons/Artillery/BigRG6Foldednomag.png
+      5456: Resources/BallisticWeapons/Artillery/BigRG6Folded.png
+      5464: Resources/BallisticWeapons/Ammo/BigVOG25Ammo_x6.png
+
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      200: Resources/BallisticWeapons/Ammo/HandAmmo.png
