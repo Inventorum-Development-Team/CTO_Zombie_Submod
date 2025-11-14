@@ -210,11 +210,11 @@ extraSprites:
 
   - type: FLOOROB.PCK
     files:
-      #5432: Resources/BallisticWeapons/Artillery/BigRG6.png
-      #5440: Resources/BallisticWeapons/Artillery/BigRG6.png
-      5448: Resources/BallisticWeapons/Artillery/BigRG6Foldednomag.png
-      5456: Resources/BallisticWeapons/Artillery/BigRG6Folded.png
-      5464: Resources/BallisticWeapons/Ammo/BigVOG25Ammo_x6.png
+      5472: Resources/BallisticWeapons/Artillery/BigFlamethrower_nomag.png
+      5480: Resources/BallisticWeapons/Artillery/BigFlamethrower_ammo1.png
+      5488: Resources/BallisticWeapons/Ammo/BigFlamethrowerTank.png
+      5496: Resources/BallisticWeapons/Artillery/BigRG6Folded.png
+      5504: Resources/BallisticWeapons/Ammo/BigVOG25Ammo_x6.png
 
   - type: HANDOB.PCK
     width: 256
