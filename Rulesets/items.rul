@@ -205,16 +205,19 @@ items:
 extraSprites:
   - type: BIGOB.PCK
     files:
-      5432: Resources/BallisticWeapons/Artillery/BigRG6.png
-      #5440: Resources/BallisticWeapons/Artillery/BigRG6.png
+      5472: Resources/BallisticWeapons/Artillery/BigFlamethrower_nomag.png
+      5480: Resources/BallisticWeapons/Artillery/BigFlamethrower_ammo1.png
+      5488: Resources/BallisticWeapons/Ammo/BigFlamethrowerTank.png
+      5496: Resources/BallisticWeapons/LMGs/BigChainsaw_nomag.png
+      5504: Resources/BallisticWeapons/LMGs/BigChainsaw_ammo1.png
 
   - type: FLOOROB.PCK
     files:
       5472: Resources/BallisticWeapons/Artillery/BigFlamethrower_nomag.png
       5480: Resources/BallisticWeapons/Artillery/BigFlamethrower_ammo1.png
       5488: Resources/BallisticWeapons/Ammo/BigFlamethrowerTank.png
-      5496: Resources/BallisticWeapons/Artillery/BigRG6Folded.png
-      5504: Resources/BallisticWeapons/Ammo/BigVOG25Ammo_x6.png
+      5496: Resources/BallisticWeapons/LMGs/BigChainsaw_nomag.png
+      5504: Resources/BallisticWeapons/LMGs/BigChainsaw_ammo1.png
 
   - type: HANDOB.PCK
     width: 256
